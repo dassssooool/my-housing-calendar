@@ -92,6 +92,14 @@ def infer_targets(title, kind="", broad=""):
         targets.append("생애최초")
     return targets
 
+# Verified application periods from published LH notice details.
+# These overrides are temporary until application dates are parsed automatically.
+VERIFIED_APPLICATION_DATES = {
+    "2015122300020958": ("2026-11-10", "2026-11-12"),
+    "2015122300020936": ("2026-11-10", "2026-11-12"),
+    "2015122300020960": ("2026-11-10", "2026-11-12"),
+}
+
 def make_notice(row):
     title = str(row.get("PAN_NM") or "").strip()
     area = str(row.get("CNP_CD_NM") or "").strip()
@@ -124,6 +132,7 @@ def make_notice(row):
         link = "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancList.do?mi=1026"
     stable = str(row.get("PAN_ID") or row.get("PAN_NO") or link + title)
     uid = hashlib.sha256(stable.encode()).hexdigest()[:18]
+    application = VERIFIED_APPLICATION_DATES.get(str(row.get("PAN_ID") or ""))
     return {
         "id": "LH-" + uid,
         "title": title,
@@ -131,11 +140,11 @@ def make_notice(row):
         "region": region,
         "type": typ,
         "targets": infer_targets(title, kind, broad),
-        "start": posted,
-        "end": posted,
-        "eventKind": "publication",
+        "start": application[0] if application else posted,
+        "end": application[1] if application else posted,
+        "eventKind": "application" if application else "publication",
         "detailUrl": link,
-        "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: " + (kind or "미확인"),
+        "memo": ("청약 접수기간 2026.11.10~11.12. 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요." if application else "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: " + (kind or "미확인")),
         "isSample": False,
     }
 
