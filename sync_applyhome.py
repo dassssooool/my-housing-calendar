@@ -67,6 +67,13 @@ for kind,endpoint in ENDPOINTS.items():
             if n:notices[n['id']]=n
     except Exception as e:errors.append(f'{kind}: {e}')
 if errors:raise SystemExit('일부 조회 실패. 기존 데이터를 덮어쓰지 않았습니다.\n'+'\n'.join(errors))
+# Merge successfully fetched LH notices; do not invent application dates.
+lh_path=pathlib.Path(__file__).with_name('lh_notices.json')
+if lh_path.exists():
+    lh_data=json.loads(lh_path.read_text(encoding='utf-8'))
+    for n in lh_data.get('entries',[]):
+        if isinstance(n,dict) and n.get('agency')=='LH' and n.get('id'):
+            notices[n['id']]=n
 out={'schemaVersion':1,'exportedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),
      'entries':sorted(notices.values(),key=lambda x:x['start']),'favorites':[]}
 path=pathlib.Path(__file__).with_name('notices.json')
