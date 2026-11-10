@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-11-10T15:24:26.908660+00:00",
+  "exportedAt": "2026-11-10T15:27:35.512862+00:00",
   "entries": [
     {
       "id": "LH-d1e1124bcbb1fdc47d",
@@ -563,20 +563,6 @@
       "isSample": false
     },
     {
-      "id": "LH-0b329eb1d0708e38d7",
-      "title": "경기남부권(안성 동인힐타운) 다세대주택 공가세대 일반매각 공고(무순위, 무주택세대구성원)",
-      "agency": "LH",
-      "region": "경기",
-      "type": "공공분양",
-      "targets": [],
-      "start": "2026-11-05",
-      "end": "2026-11-05",
-      "eventKind": "publication",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021015&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
-      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 분양주택",
-      "isSample": false
-    },
-    {
       "id": "LH-db87d54f41e5fa70e8",
       "title": "경기남부권(수원·용인 광교) 공가세대 일반매각 공고(무순위, 유주택자 가능)",
       "agency": "LH",
@@ -587,6 +573,20 @@
       "end": "2026-11-05",
       "eventKind": "publication",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021009&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 분양주택",
+      "isSample": false
+    },
+    {
+      "id": "LH-0b329eb1d0708e38d7",
+      "title": "경기남부권(안성 동인힐타운) 다세대주택 공가세대 일반매각 공고(무순위, 무주택세대구성원)",
+      "agency": "LH",
+      "region": "경기",
+      "type": "공공분양",
+      "targets": [],
+      "start": "2026-11-05",
+      "end": "2026-11-05",
+      "eventKind": "publication",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021015&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
       "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 분양주택",
       "isSample": false
     },
