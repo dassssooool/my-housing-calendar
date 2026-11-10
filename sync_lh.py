@@ -32,20 +32,22 @@ def normalize_date(value):
         return ""
 
 def rows_from(data):
-    if isinstance(data, list):
-        return data if all(isinstance(v, dict) for v in data) else []
-    if isinstance(data, dict):
-        for k in ("dsList", "DS_LIST", "list", "items", "data", "result", "response", "body"):
-            if k in data:
-                found = rows_from(data[k])
-                if found:
-                    return found
-        for value in data.values():
-            if isinstance(value, (dict, list)):
-                found = rows_from(value)
-                if found:
-                    return found
-    return []
+    """Walk LH's nested dsSch/dsList response without mistaking wrappers for notices."""
+    found = []
+    def visit(value):
+        if isinstance(value, list):
+            for item in value:
+                visit(item)
+        elif isinstance(value, dict):
+            keys = {str(k).upper() for k in value}
+            if "PAN_NM" in keys or "PAN_ID" in keys:
+                found.append(value)
+            else:
+                for item in value.values():
+                    if isinstance(item, (list, dict)):
+                        visit(item)
+    visit(data)
+    return found
 
 def get_page(category, page):
     params = {
@@ -73,7 +75,7 @@ def get_page(category, page):
                 raise RuntimeError("LH API returned an error: " + str(header)[:250])
     rows = rows_from(data)
     if page == 1:
-        print(f"LH category={category}: rows={len(rows)}; top-level keys={list(data)[:12] if isinstance(data, dict) else type(data).__name__}; sample fields={list(rows[0])[:25] if rows else []}")
+        print(f"LH category={category}: rows={len(rows)}; top-level keys={list(data)[:12] if isinstance(data, dict) else type(data).__name__}; sample fields={list(rows[0])[:25] if rows else []}; dsSch shape={[(list(v)[:12] if isinstance(v,dict) else type(v).__name__) for v in data.get('dsSch',[])[:2]] if isinstance(data,dict) and isinstance(data.get('dsSch'),list) else 'n/a'}")
     return rows
 
 def make_notice(row):
