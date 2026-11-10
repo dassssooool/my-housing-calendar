@@ -944,11 +944,11 @@
       "region": "경기",
       "type": "공공임대",
       "targets": [],
-      "start": "2026-10-27",
-      "end": "2026-10-27",
-      "eventKind": "publication",
+      "start": "2026-11-10",
+      "end": "2026-11-12",
+      "eventKind": "application",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020958&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 행복주택",
+      "memo": "청약 접수기간 2026.11.10~11.12. 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요. (기존 게시일 기준 데이터를 접수기간으로 보정)",
       "isSample": false
     },
     {
@@ -976,11 +976,11 @@
       "targets": [
         "신혼부부"
       ],
-      "start": "2026-10-27",
-      "end": "2026-10-27",
-      "eventKind": "publication",
+      "start": "2026-11-10",
+      "end": "2026-11-12",
+      "eventKind": "application",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020936&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
-      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 행복주택(신혼희망)",
+      "memo": "청약 접수기간 2026.11.10~11.12. 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요. (기존 게시일 기준 데이터를 접수기간으로 보정)",
       "isSample": false
     },
     {
@@ -990,11 +990,11 @@
       "region": "경기",
       "type": "공공임대",
       "targets": [],
-      "start": "2026-10-28",
-      "end": "2026-10-28",
-      "eventKind": "publication",
+      "start": "2026-11-10",
+      "end": "2026-11-12",
+      "eventKind": "application",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020960&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 행복주택",
+      "memo": "청약 접수기간 2026.11.10~11.12. 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요. (기존 게시일 기준 데이터를 접수기간으로 보정)",
       "isSample": false
     },
     {
