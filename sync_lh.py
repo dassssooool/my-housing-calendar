@@ -78,6 +78,20 @@ def get_page(category, page):
         print(f"LH category={category}: rows={len(rows)}; top-level keys={list(data)[:12] if isinstance(data, dict) else type(data).__name__}; sample fields={list(rows[0])[:25] if rows else []}; dsSch shape={[(list(v)[:12] if isinstance(v,dict) else type(v).__name__) for v in data.get('dsSch',[])[:2]] if isinstance(data,dict) and isinstance(data.get('dsSch'),list) else 'n/a'}")
     return rows
 
+def infer_targets(title, kind="", broad=""):
+    """Keyword-based discovery tags, not an eligibility determination."""
+    text = " ".join((title, kind, broad))
+    targets = []
+    if any(word in text for word in ("신혼", "신생아", "예비신혼")):
+        targets.append("신혼부부")
+    if any(word in text for word in ("청년", "대학생", "사회초년생")):
+        targets.append("청년")
+    if any(word in text for word in ("일반", "국민임대", "통합공공임대", "공공분양", "10년공공임대", "10년 분양전환", "영구임대")):
+        targets.append("일반공급")
+    if "생애최초" in text:
+        targets.append("생애최초")
+    return targets
+
 def make_notice(row):
     title = str(row.get("PAN_NM") or "").strip()
     area = str(row.get("CNP_CD_NM") or "").strip()
@@ -116,7 +130,7 @@ def make_notice(row):
         "agency": "LH",
         "region": region,
         "type": typ,
-        "targets": [],
+        "targets": infer_targets(title, kind, broad),
         "start": posted,
         "end": posted,
         "eventKind": "publication",
