@@ -25,7 +25,9 @@ def get_rows(endpoint):
         with urllib.request.urlopen(req,timeout=25) as r: data=json.load(r)
         if not isinstance(data,dict) or not isinstance(data.get('data'),list):
             raise ValueError(f'예상하지 못한 응답: {str(data)[:250]}')
-        chunk=data['data'];rows.extend(chunk)
+        chunk=data['data']
+        if page==1: print(f'청약홈 API {endpoint}: totalCount={data.get("totalCount")}, currentCount={data.get("currentCount")}, 조건={SINCE}, 응답키={list(data)[:12]}')
+        rows.extend(chunk)
         if len(chunk)<100:break
         time.sleep(.15)
     return rows
