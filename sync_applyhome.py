@@ -60,13 +60,39 @@ def make_notice(row,kind):
             'isSample':False}
 
 notices={};errors=[]
+raw_counts={};valid_counts={};sample_keys={};reject_counts={}
 for kind,endpoint in ENDPOINTS.items():
     try:
-        for row in get_rows(endpoint):
+        rows=get_rows(endpoint)
+        raw_counts[kind]=len(rows)
+        sample_keys[kind]=list(rows[0])[:35] if rows else []
+        valid_counts[kind]=0
+        reject_counts[kind]={'region':0,'dates':0}
+        for row in rows:
             n=make_notice(row,kind)
-            if n:notices[n['id']]=n
+            if n:
+                notices[n['id']]=n
+                valid_counts[kind]+=1
+            else:
+                area=str(row.get('SUBSCRPT_AREA_CODE_NM') or '')
+                address=str(row.get('HSSPLY_ADRES') or '')
+                if not any(r in area or r in address for r in REGIONS):
+                    reject_counts[kind]['region']+=1
+                else:
+                    reject_counts[kind]['dates']+=1
     except Exception as e:errors.append(f'{kind}: {e}')
+print('청약홈 진단: 원본 건수=',raw_counts,'달력 반영 건수=',valid_counts,'제외 사유=',reject_counts)
+print('청약홈 응답 필드명=',sample_keys)
 if errors:raise SystemExit('일부 조회 실패. 기존 데이터를 덮어쓰지 않았습니다.\n'+'\n'.join(errors))
+# Do not overwrite existing published Applyhome notices with an empty result
+# until the API response/filter mismatch is diagnosed.
+existing_path=pathlib.Path(__file__).with_name('notices.json')
+if not any(valid_counts.values()) and existing_path.exists():
+    old=json.loads(existing_path.read_text(encoding='utf-8'))
+    preserved=[n for n in old.get('entries',[]) if isinstance(n,dict) and n.get('agency')=='청약홈']
+    for n in preserved:
+        notices[n['id']]=n
+    print(f'청약홈 0건: 기존 청약홈 데이터 {len(preserved)}건 보존')
 # Merge successfully fetched LH notices; do not invent application dates.
 lh_path=pathlib.Path(__file__).with_name('lh_notices.json')
 if lh_path.exists():
