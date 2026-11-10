@@ -296,7 +296,9 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "일반공급"
+      ],
       "start": "2026-09-15",
       "end": "2026-09-15",
       "eventKind": "publication",
@@ -310,7 +312,9 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "일반공급"
+      ],
       "start": "2026-09-15",
       "end": "2026-09-15",
       "eventKind": "publication",
@@ -339,7 +343,9 @@
       "agency": "LH",
       "region": "서울",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "일반공급"
+      ],
       "start": "2026-09-17",
       "end": "2026-09-17",
       "eventKind": "publication",
@@ -353,7 +359,9 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "일반공급"
+      ],
       "start": "2026-09-17",
       "end": "2026-09-17",
       "eventKind": "publication",
@@ -367,7 +375,9 @@
       "agency": "LH",
       "region": "서울",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "청년"
+      ],
       "start": "2026-09-17",
       "end": "2026-09-17",
       "eventKind": "publication",
@@ -381,7 +391,9 @@
       "agency": "LH",
       "region": "서울",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "신혼부부"
+      ],
       "start": "2026-09-17",
       "end": "2026-09-17",
       "eventKind": "publication",
@@ -395,7 +407,9 @@
       "agency": "LH",
       "region": "서울",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "신혼부부"
+      ],
       "start": "2026-09-17",
       "end": "2026-09-17",
       "eventKind": "publication",
@@ -409,7 +423,10 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공분양",
-      "targets": [],
+      "targets": [
+        "신혼부부",
+        "일반공급"
+      ],
       "start": "2026-09-18",
       "end": "2026-09-18",
       "eventKind": "publication",
@@ -513,7 +530,9 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "일반공급"
+      ],
       "start": "2026-09-21",
       "end": "2026-09-21",
       "eventKind": "publication",
@@ -527,7 +546,9 @@
       "agency": "LH",
       "region": "서울",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "일반공급"
+      ],
       "start": "2026-09-21",
       "end": "2026-09-21",
       "eventKind": "publication",
@@ -541,7 +562,9 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "일반공급"
+      ],
       "start": "2026-09-22",
       "end": "2026-09-22",
       "eventKind": "publication",
@@ -615,7 +638,10 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공분양",
-      "targets": [],
+      "targets": [
+        "신혼부부",
+        "일반공급"
+      ],
       "start": "2026-09-29",
       "end": "2026-09-29",
       "eventKind": "publication",
@@ -629,7 +655,9 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "신혼부부"
+      ],
       "start": "2026-09-29",
       "end": "2026-09-29",
       "eventKind": "publication",
@@ -685,7 +713,9 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "신혼부부"
+      ],
       "start": "2026-10-01",
       "end": "2026-10-01",
       "eventKind": "publication",
@@ -758,7 +788,9 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "청년"
+      ],
       "start": "2026-10-16",
       "end": "2026-10-16",
       "eventKind": "publication",
@@ -817,7 +849,9 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "일반공급"
+      ],
       "start": "2026-10-22",
       "end": "2026-10-22",
       "eventKind": "publication",
@@ -831,7 +865,9 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공분양",
-      "targets": [],
+      "targets": [
+        "일반공급"
+      ],
       "start": "2026-10-23",
       "end": "2026-10-23",
       "eventKind": "publication",
@@ -845,7 +881,10 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공분양",
-      "targets": [],
+      "targets": [
+        "신혼부부",
+        "일반공급"
+      ],
       "start": "2026-10-23",
       "end": "2026-10-23",
       "eventKind": "publication",
@@ -918,7 +957,9 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공분양",
-      "targets": [],
+      "targets": [
+        "일반공급"
+      ],
       "start": "2026-10-27",
       "end": "2026-10-27",
       "eventKind": "publication",
@@ -932,7 +973,9 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "신혼부부"
+      ],
       "start": "2026-10-27",
       "end": "2026-10-27",
       "eventKind": "publication",
@@ -960,7 +1003,9 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공분양",
-      "targets": [],
+      "targets": [
+        "일반공급"
+      ],
       "start": "2026-10-30",
       "end": "2026-10-30",
       "eventKind": "publication",
@@ -974,7 +1019,10 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공분양",
-      "targets": [],
+      "targets": [
+        "신혼부부",
+        "일반공급"
+      ],
       "start": "2026-10-30",
       "end": "2026-10-30",
       "eventKind": "publication",
@@ -1109,7 +1157,9 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "일반공급"
+      ],
       "start": "2026-11-02",
       "end": "2026-11-02",
       "eventKind": "publication",
@@ -1123,7 +1173,9 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공분양",
-      "targets": [],
+      "targets": [
+        "일반공급"
+      ],
       "start": "2026-11-03",
       "end": "2026-11-03",
       "eventKind": "publication",
@@ -1137,7 +1189,10 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공분양",
-      "targets": [],
+      "targets": [
+        "신혼부부",
+        "일반공급"
+      ],
       "start": "2026-11-03",
       "end": "2026-11-03",
       "eventKind": "publication",
@@ -1151,7 +1206,10 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공분양",
-      "targets": [],
+      "targets": [
+        "신혼부부",
+        "일반공급"
+      ],
       "start": "2026-11-03",
       "end": "2026-11-03",
       "eventKind": "publication",
@@ -1165,7 +1223,9 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공분양",
-      "targets": [],
+      "targets": [
+        "일반공급"
+      ],
       "start": "2026-11-04",
       "end": "2026-11-04",
       "eventKind": "publication",
@@ -1193,7 +1253,9 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "일반공급"
+      ],
       "start": "2026-11-05",
       "end": "2026-11-05",
       "eventKind": "publication",
@@ -1207,7 +1269,9 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "일반공급"
+      ],
       "start": "2026-11-05",
       "end": "2026-11-05",
       "eventKind": "publication",
@@ -1235,7 +1299,9 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공분양",
-      "targets": [],
+      "targets": [
+        "일반공급"
+      ],
       "start": "2026-11-05",
       "end": "2026-11-05",
       "eventKind": "publication",
@@ -1249,7 +1315,9 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공분양",
-      "targets": [],
+      "targets": [
+        "일반공급"
+      ],
       "start": "2026-11-05",
       "end": "2026-11-05",
       "eventKind": "publication",
@@ -1263,7 +1331,9 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공분양",
-      "targets": [],
+      "targets": [
+        "일반공급"
+      ],
       "start": "2026-11-05",
       "end": "2026-11-05",
       "eventKind": "publication",
@@ -1291,7 +1361,10 @@
       "agency": "LH",
       "region": "경기",
       "type": "공공분양",
-      "targets": [],
+      "targets": [
+        "신혼부부",
+        "일반공급"
+      ],
       "start": "2026-11-06",
       "end": "2026-11-06",
       "eventKind": "publication",
