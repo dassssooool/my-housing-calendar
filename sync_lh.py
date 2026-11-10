@@ -71,7 +71,10 @@ def get_page(category, page):
             header = data.get(key)
             if isinstance(header, dict) and str(header.get("SS_CODE", "Y")).upper() not in ("Y", "00", "SUCCESS"):
                 raise RuntimeError("LH API returned an error: " + str(header)[:250])
-    return rows_from(data)
+    rows = rows_from(data)
+    if page == 1:
+        print(f"LH category={category}: rows={len(rows)}; top-level keys={list(data)[:12] if isinstance(data, dict) else type(data).__name__}; sample fields={list(rows[0])[:25] if rows else []}")
+    return rows
 
 def make_notice(row):
     title = str(row.get("PAN_NM") or "").strip()
@@ -122,17 +125,22 @@ def make_notice(row):
 
 def main():
     notices = {}
+    counts = {"raw": 0, "usable": 0}
     for category in ("06", "13", "05", "39"):
         for page in range(1, 11):
             chunk = get_page(category, page)
+            counts["raw"] += len(chunk)
             for row in chunk:
                 notice = make_notice(row)
                 if notice:
                     notices[notice["id"]] = notice
+                    counts["usable"] += 1
             if len(chunk) < 100:
                 break
+    print(f"LH diagnostic: {counts}")
     if not notices:
-        raise SystemExit("LH returned no usable Seoul/Gyeonggi notices; preserving existing data")
+        print("WARNING: LH returned no usable Seoul/Gyeonggi notices. Existing LH data preserved.")
+        return
     output = Path(__file__).with_name("lh_notices.json")
     output.write_text(json.dumps({"entries": sorted(notices.values(), key=lambda n: n["start"])}, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"LH public notices: {len(notices)} publication events")
