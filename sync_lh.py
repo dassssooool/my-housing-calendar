@@ -100,6 +100,29 @@ VERIFIED_APPLICATION_DATES = {
     "2015122300020960": ("2026-11-10", "2026-11-12"),
 }
 
+# Only accept explicit application-period fields, never announcement or closing dates.
+# Some LH API versions omit these fields; those notices stay publication-only.
+APPLICATION_DATE_PAIRS = (
+    ("RCEPT_ST_DT", "RCEPT_ED_DT"),
+    ("RCEPT_BGN_DT", "RCEPT_END_DT"),
+    ("RCEPT_BGNG_DT", "RCEPT_END_DT"),
+    ("APLY_ST_DT", "APLY_ED_DT"),
+    ("APLY_BGNG_DT", "APLY_END_DT"),
+    ("SBSC_ST_DT", "SBSC_ED_DT"),
+    ("SBSCRB_ST_DT", "SBSCRB_ED_DT"),
+    ("RCPT_ST_DT", "RCPT_ED_DT"),
+    ("RECRUIT_ST_DT", "RECRUIT_END_DT"),
+)
+
+def extract_application_period(row):
+    fields = {str(k).upper(): v for k, v in row.items()}
+    for start_key, end_key in APPLICATION_DATE_PAIRS:
+        start = normalize_date(fields.get(start_key))
+        end = normalize_date(fields.get(end_key))
+        if start and end and start <= end:
+            return (start, end), f"LH API {start_key}/{end_key}"
+    return None, ""
+
 def make_notice(row):
     title = str(row.get("PAN_NM") or "").strip()
     area = str(row.get("CNP_CD_NM") or "").strip()
@@ -132,7 +155,11 @@ def make_notice(row):
         link = "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancList.do?mi=1026"
     stable = str(row.get("PAN_ID") or row.get("PAN_NO") or link + title)
     uid = hashlib.sha256(stable.encode()).hexdigest()[:18]
-    application = VERIFIED_APPLICATION_DATES.get(str(row.get("PAN_ID") or ""))
+    application, date_source = extract_application_period(row)
+    if not application:
+        application = VERIFIED_APPLICATION_DATES.get(str(row.get("PAN_ID") or ""))
+        if application:
+            date_source = "verified override"
     return {
         "id": "LH-" + uid,
         "title": title,
@@ -143,14 +170,23 @@ def make_notice(row):
         "start": application[0] if application else posted,
         "end": application[1] if application else posted,
         "eventKind": "application" if application else "publication",
+        "dateSource": date_source if application else "LH announcement date",
         "detailUrl": link,
-        "memo": ("청약 접수기간 2026.11.10~11.12. 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요." if application else "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: " + (kind or "미확인")),
+        "memo": (f"청약 접수기간 {application[0]}~{application[1]} ({date_source}). 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요." if application else "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: " + (kind or "미확인")),
         "isSample": False,
     }
 
 def main():
     notices = {}
-    counts = {"raw": 0, "usable": 0}
+    counts = {"raw": 0, "usable": 0, "application": 0, "publication": 0}
+    previous_path = Path(__file__).with_name("lh_notices.json")
+    previous = {}
+    if previous_path.exists():
+        try:
+            previous = {n["id"]: n for n in json.loads(previous_path.read_text(encoding="utf-8")).get("entries", [])
+                        if isinstance(n, dict) and n.get("id") and n.get("eventKind") == "application"}
+        except (OSError, ValueError, KeyError, TypeError) as exc:
+            print("WARNING: prior LH dates unavailable:", exc)
     for category in ("06", "13", "05", "39"):
         for page in range(1, 11):
             chunk = get_page(category, page)
@@ -158,8 +194,16 @@ def main():
             for row in chunk:
                 notice = make_notice(row)
                 if notice:
+                    old = previous.get(notice["id"])
+                    if old and notice["eventKind"] != "application":
+                        # Do not regress an already verified application event to its publication date.
+                        if normalize_date(old.get("start")) and normalize_date(old.get("end")):
+                            notice.update(start=old["start"], end=old["end"], eventKind="application",
+                                          dateSource=old.get("dateSource", "previous verified record"),
+                                          memo=old.get("memo", notice["memo"]))
                     notices[notice["id"]] = notice
                     counts["usable"] += 1
+                    counts[notice["eventKind"]] += 1
             if len(chunk) < 100:
                 break
     print(f"LH diagnostic: {counts}")
@@ -168,7 +212,7 @@ def main():
         return
     output = Path(__file__).with_name("lh_notices.json")
     output.write_text(json.dumps({"entries": sorted(notices.values(), key=lambda n: n["start"])}, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"LH public notices: {len(notices)} publication events")
+    print(f"LH public notices: {len(notices)} entries; application={counts['application']}, publication={counts['publication']}")
 
 if __name__ == "__main__":
     main()
