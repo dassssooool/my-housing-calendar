@@ -34,9 +34,10 @@ jobs:
           git add notices.json
           if [ -f lh_notices.json ]; then git add lh_notices.json; fi
           git diff --cached --quiet || (git commit -m 'Update housing notices' && git push)
-      - name: Notify Telegram of LH sync failure
-        if: ${{ failure() && steps.lh_sync.outcome == 'failure' }}
+      - name: Notify Telegram of update result
+        if: ${{ success() || (failure() && steps.lh_sync.outcome == 'failure') }}
         env:
+          LH_SYNC_OUTCOME: ${{ steps.lh_sync.outcome }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
@@ -52,11 +53,15 @@ jobs:
               raise SystemExit("Telegram notification secrets are missing")
 
           run_url = "{GITHUB_SERVER_URL}/{GITHUB_REPOSITORY}/actions/runs/{GITHUB_RUN_ID}".format_map(os.environ)
-          text = f"청약 캘린더 업데이트 실패: LH 공고 수집 단계에서 오류가 발생했습니다.\n실행 로그: {run_url}"
+          if os.environ["LH_SYNC_OUTCOME"] == "failure":
+              summary = "⚠️ 청약 캘린더 업데이트 실패: LH 공고 수집 단계에서 오류가 발생했습니다."
+          else:
+              summary = "✅ 청약 캘린더 업데이트 완료"
+          text = f"{summary}\n실행 기록: {run_url}"
           body = urllib.parse.urlencode({"chat_id": chat_id, "text": text}).encode()
           try:
               with urllib.request.urlopen(f"https://api.telegram.org/bot{token}/sendMessage", data=body, timeout=20):
-                  print("Telegram accepted the failure notification")
+                  print("Telegram accepted the update notification")
           except urllib.error.HTTPError as exc:
               raise SystemExit(f"Telegram rejected the notification (HTTP {exc.code})") from None
           except (OSError, ValueError):
