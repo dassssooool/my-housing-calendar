@@ -9,7 +9,6 @@ from urllib.parse import parse_qs, urlsplit
 from urllib.request import Request, urlopen
 
 BASE = "https://housing.seoul.go.kr/site/main/sh/publicLease"
-CATEGORIES = ("02", "03", "04", "05", "06", "07", "10", "11", "13", "14", "20", "23")
 
 
 class NoticeList(HTMLParser):
@@ -52,42 +51,41 @@ class NoticeList(HTMLParser):
             self.cells = None
 
 
-def load_page(category, page):
-    url = f"{BASE}/{category}/list?cp={page}&supplyType=publicLease&splyCd={category}"
+def load_page(page):
+    url = f"{BASE}/list?cp={page}&supplyType=publicLease"
     with urlopen(Request(url, headers={"User-Agent": "HousingCalendar/1.1"}), timeout=30) as response:
         html = response.read().decode("utf-8")
     parsed = NoticeList()
     parsed.feed(html)
     if parsed.pages is None and "공고게시일" not in html:
-        raise ValueError(f"Unexpected SH listing for category {category}")
+        raise ValueError(f"Unexpected SH listing on page {page}")
     return parsed
 
 
 def collect():
     notices = {}
-    for category in CATEGORIES:
-        first = load_page(category, 1)
-        for page in range(1, (first.pages or 1) + 1):
-            listing = first if page == 1 else load_page(category, page)
-            for cells, link in listing.rows:
-                _, kind, title, posted, *_ = cells
-                if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", posted):
-                    continue
-                datetime.date.fromisoformat(posted)
-                seq = parse_qs(urlsplit(link).query)["seq"][0]
-                targets = [tag for tag, terms in (
-                    ("신혼부부", ("신혼", "신생아")),
-                    ("청년", ("청년", "대학생")),
-                    ("일반공급", ("일반공급",)),
-                ) if any(term in title for term in terms)]
-                notices[seq] = {
-                    "id": f"SH-{seq}", "title": title, "agency": "SH",
-                    "region": "서울", "type": "공공임대", "targets": targets,
-                    "start": posted, "end": posted, "eventKind": "publication",
-                    "dateSource": "서울주거포털 공고게시일", "detailUrl": link,
-                    "memo": f"세부유형: {kind}. 접수 일정과 대상은 SH 공식 공고문에서 확인하세요.",
-                    "isSample": False,
-                }
+    first = load_page(1)
+    for page in range(1, (first.pages or 1) + 1):
+        listing = first if page == 1 else load_page(page)
+        for cells, link in listing.rows:
+            _, kind, title, posted, *_ = cells
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", posted):
+                continue
+            datetime.date.fromisoformat(posted)
+            seq = parse_qs(urlsplit(link).query)["seq"][0]
+            targets = [tag for tag, terms in (
+                ("신혼부부", ("신혼", "신생아")),
+                ("청년", ("청년", "대학생")),
+                ("일반공급", ("일반공급",)),
+            ) if any(term in title for term in terms)]
+            notices[seq] = {
+                "id": f"SH-{seq}", "title": title, "agency": "SH",
+                "region": "서울", "type": "공공임대", "targets": targets,
+                "start": posted, "end": posted, "eventKind": "publication",
+                "dateSource": "서울주거포털 공고게시일", "detailUrl": link,
+                "memo": f"세부유형: {kind}. 접수 일정과 대상은 SH 공식 공고문에서 확인하세요.",
+                "isSample": False,
+            }
     if not notices:
         raise RuntimeError("SH listing returned no usable notices")
     return list(notices.values())
