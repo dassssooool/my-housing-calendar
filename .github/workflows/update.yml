@@ -36,6 +36,9 @@ jobs:
         env:
           APPLYHOME_API_KEY: ${{ secrets.APPLYHOME_API_KEY }}
         run: python sync_applyhome.py
+      - name: Merge SH public rental notices
+        id: sh_sync
+        run: python sync_sh.py
       - name: Publish data
         run: |
           git config user.name github-actions[bot]
@@ -44,9 +47,10 @@ jobs:
           if [ -f lh_notices.json ]; then git add lh_notices.json; fi
           git diff --cached --quiet || (git commit -m 'Update housing notices' && git push)
       - name: Notify Telegram of update result
-        if: ${{ success() || (failure() && steps.lh_sync.outcome == 'failure') }}
+        if: ${{ success() || (failure() && (steps.lh_sync.outcome == 'failure' || steps.sh_sync.outcome == 'failure')) }}
         env:
           LH_SYNC_REASON: ${{ steps.lh_sync.outputs.reason }}
+          SH_SYNC_OUTCOME: ${{ steps.sh_sync.outcome }}
           LH_SYNC_OUTCOME: ${{ steps.lh_sync.outcome }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -66,6 +70,8 @@ jobs:
           if os.environ["LH_SYNC_OUTCOME"] == "failure":
               reason = os.environ.get("LH_SYNC_REASON") or "LH 공고 수집 오류 (상세 내용은 실행 로그 참고)"
               summary = f"⚠️ 청약 캘린더 업데이트 실패\n실패 사유: {reason}"
+          elif os.environ["SH_SYNC_OUTCOME"] == "failure":
+              summary = "⚠️ 청약 캘린더 업데이트 실패: SH 공고 수집 오류"
           else:
               summary = "✅ 청약 캘린더 업데이트 완료"
           text = f"{summary}\n실행 기록: {run_url}"
