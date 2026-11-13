@@ -15,13 +15,22 @@ jobs:
           python-version: '3.12'
       - name: Fetch LH public notices
         id: lh_sync
+        shell: bash
         env:
           LH_API_KEY: ${{ secrets.LH_API_KEY }}
         run: |
           if [ -z "$LH_API_KEY" ]; then
             echo "LH_API_KEY not configured; LH sync skipped."
           else
-            python sync_lh.py
+            log=$(mktemp)
+            trap 'rm -f "$log"' EXIT
+            if python sync_lh.py 2>&1 | tee "$log"; then
+              exit 0
+            fi
+            if grep -q '^RuntimeError: LH API timed out after 3 attempts' "$log"; then
+              echo 'reason=LH API 응답 시간 초과 (총 3회 시도)' >> "$GITHUB_OUTPUT"
+            fi
+            exit 1
           fi
       - name: Fetch official notices
         env:
@@ -37,6 +46,7 @@ jobs:
       - name: Notify Telegram of update result
         if: ${{ success() || (failure() && steps.lh_sync.outcome == 'failure') }}
         env:
+          LH_SYNC_REASON: ${{ steps.lh_sync.outputs.reason }}
           LH_SYNC_OUTCOME: ${{ steps.lh_sync.outcome }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -54,7 +64,8 @@ jobs:
 
           run_url = "{GITHUB_SERVER_URL}/{GITHUB_REPOSITORY}/actions/runs/{GITHUB_RUN_ID}".format_map(os.environ)
           if os.environ["LH_SYNC_OUTCOME"] == "failure":
-              summary = "⚠️ 청약 캘린더 업데이트 실패: LH 공고 수집 단계에서 오류가 발생했습니다."
+              reason = os.environ.get("LH_SYNC_REASON") or "LH 공고 수집 오류 (상세 내용은 실행 로그 참고)"
+              summary = f"⚠️ 청약 캘린더 업데이트 실패\n실패 사유: {reason}"
           else:
               summary = "✅ 청약 캘린더 업데이트 완료"
           text = f"{summary}\n실행 기록: {run_url}"
