@@ -6,6 +6,8 @@ import datetime as dt
 import hashlib
 import json
 import os
+import time
+import urllib.error
 from pathlib import Path
 import urllib.parse
 import urllib.request
@@ -60,8 +62,21 @@ def get_page(category, page):
     }
     req = urllib.request.Request(URL + "?" + urllib.parse.urlencode(params),
                                  headers={"User-Agent": "HousingCalendar/1.1"})
-    with urllib.request.urlopen(req, timeout=35) as resp:
-        raw = resp.read()
+    for attempt, delay in enumerate((5, 15, None), start=1):
+        try:
+            with urllib.request.urlopen(req, timeout=35) as resp:
+                raw = resp.read()
+            break
+        except (TimeoutError, urllib.error.URLError) as exc:
+            reason = exc.reason if isinstance(exc, urllib.error.URLError) else exc
+            if not isinstance(reason, TimeoutError):
+                raise
+            if delay is None:
+                raise RuntimeError(
+                    f"LH API timed out after {attempt} attempts (category={category}, page={page})"
+                ) from exc
+            print(f"LH API timeout (category={category}, page={page}); retrying in {delay}s", flush=True)
+            time.sleep(delay)
     try:
         data = json.loads(raw)
     except ValueError as exc:
