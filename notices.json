@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-11-13T23:04:32.489411+00:00",
+  "exportedAt": "2026-11-14T21:51:16.679805+00:00",
   "entries": [
     {
       "id": "SH-281012",
@@ -970,36 +970,6 @@
       "dateSource": "서울주거포털 공고게시일",
       "detailUrl": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=308167",
       "memo": "세부유형: 도시형생활주택. 접수 일정과 대상은 SH 공식 공고문에서 확인하세요.",
-      "isSample": false
-    },
-    {
-      "id": "APPLYHOME-잔여세대-2026910212-2026910212",
-      "title": "장위 푸르지오 마크원",
-      "agency": "청약홈",
-      "region": "서울",
-      "type": "민간분양",
-      "targets": [
-        "일반공급"
-      ],
-      "start": "2026-08-10",
-      "end": "2026-08-10",
-      "detailUrl": "https://www.prugio.com/hb/2026/markone/",
-      "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-08-05. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false
-    },
-    {
-      "id": "APPLYHOME-잔여세대-2026910170-2026910170",
-      "title": "용현자이 크레스트(2차)",
-      "agency": "청약홈",
-      "region": "인천",
-      "type": "민간분양",
-      "targets": [
-        "일반공급"
-      ],
-      "start": "2026-08-10",
-      "end": "2026-08-10",
-      "detailUrl": "https://xi.co.kr/ICY",
-      "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-08-05. 대상별 공급자격은 반드시 원문 확인.",
       "isSample": false
     },
     {
