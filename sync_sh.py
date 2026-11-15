@@ -74,7 +74,7 @@ def collect():
             datetime.date.fromisoformat(posted)
             seq = parse_qs(urlsplit(link).query)["seq"][0]
             targets = [tag for tag, terms in (
-                ("신혼부부", ("신혼", "신생아")),
+                ("신혼부부", ("신혼", "신생아", "미리내집")),
                 ("청년", ("청년", "대학생")),
                 ("일반공급", ("일반공급",)),
             ) if any(term in title for term in terms)]
