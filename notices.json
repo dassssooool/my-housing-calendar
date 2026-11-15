@@ -420,7 +420,9 @@
       "agency": "SH",
       "region": "서울",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "신혼부부"
+      ],
       "start": "2025-12-30",
       "end": "2025-12-30",
       "eventKind": "publication",
@@ -589,7 +591,9 @@
       "agency": "SH",
       "region": "서울",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "신혼부부"
+      ],
       "start": "2026-04-02",
       "end": "2026-04-02",
       "eventKind": "publication",
@@ -621,7 +625,9 @@
       "agency": "SH",
       "region": "서울",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "신혼부부"
+      ],
       "start": "2026-04-20",
       "end": "2026-04-20",
       "eventKind": "publication",
@@ -636,7 +642,9 @@
       "agency": "SH",
       "region": "서울",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "신혼부부"
+      ],
       "start": "2026-04-24",
       "end": "2026-04-24",
       "eventKind": "publication",
@@ -696,7 +704,9 @@
       "agency": "SH",
       "region": "서울",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "신혼부부"
+      ],
       "start": "2026-05-04",
       "end": "2026-05-04",
       "eventKind": "publication",
@@ -760,7 +770,9 @@
       "agency": "SH",
       "region": "서울",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "신혼부부"
+      ],
       "start": "2026-05-18",
       "end": "2026-05-18",
       "eventKind": "publication",
@@ -1281,7 +1293,9 @@
       "agency": "SH",
       "region": "서울",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "신혼부부"
+      ],
       "start": "2026-08-21",
       "end": "2026-08-21",
       "eventKind": "publication",
@@ -1416,7 +1430,9 @@
       "agency": "SH",
       "region": "서울",
       "type": "공공임대",
-      "targets": [],
+      "targets": [
+        "신혼부부"
+      ],
       "start": "2026-08-24",
       "end": "2026-08-24",
       "eventKind": "publication",
