@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-11-15T22:20:08.632823+00:00",
+  "exportedAt": "2026-11-17T01:21:00.478180+00:00",
   "entries": [
     {
       "id": "SH-281608",
@@ -1000,81 +1000,6 @@
       "isSample": false
     },
     {
-      "id": "APPLYHOME-잔여세대-2026910216-2026910216",
-      "title": "더샵 검단레이크파크(AB23BL)",
-      "agency": "청약홈",
-      "region": "인천",
-      "type": "민간분양",
-      "targets": [
-        "일반공급"
-      ],
-      "start": "2026-08-12",
-      "end": "2026-08-12",
-      "detailUrl": "https://더샵검단레이크파크.kr",
-      "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-08-07. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false
-    },
-    {
-      "id": "APPLYHOME-잔여세대-2026910215-2026910215",
-      "title": "더샵 검단레이크파크(AB22BL)",
-      "agency": "청약홈",
-      "region": "인천",
-      "type": "민간분양",
-      "targets": [
-        "일반공급"
-      ],
-      "start": "2026-08-12",
-      "end": "2026-08-12",
-      "detailUrl": "https://더샵검단레이크파크.kr",
-      "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-08-07. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false
-    },
-    {
-      "id": "APPLYHOME-잔여세대-2026910214-2026910214",
-      "title": "드파인 아르티아",
-      "agency": "청약홈",
-      "region": "서울",
-      "type": "민간분양",
-      "targets": [
-        "일반공급"
-      ],
-      "start": "2026-08-12",
-      "end": "2026-08-12",
-      "detailUrl": "https://altia.skdefine.com",
-      "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-08-07. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false
-    },
-    {
-      "id": "APPLYHOME-잔여세대-2026910213-2026910213",
-      "title": "청계 노르웨이숲(11차)",
-      "agency": "청약홈",
-      "region": "서울",
-      "type": "민간분양",
-      "targets": [
-        "일반공급"
-      ],
-      "start": "2026-08-12",
-      "end": "2026-08-13",
-      "detailUrl": "https://청계노르웨이숲.com",
-      "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-08-07. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false
-    },
-    {
-      "id": "APPLYHOME-잔여세대-2026910210-2026910210",
-      "title": "오산세교2지구 A-13블록 호반써밋(2차)",
-      "agency": "청약홈",
-      "region": "경기",
-      "type": "민간분양",
-      "targets": [
-        "일반공급"
-      ],
-      "start": "2026-08-12",
-      "end": "2026-08-12",
-      "detailUrl": "https://www.ihoban.co.kr/web",
-      "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-08-07. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false
-    },
-    {
       "id": "SH-308644",
       "title": "2026년 1차 일반주택형 미리내집(신혼신생아매입임대주택Ⅱ) 입주자 모집공고(2026.08.14.)",
       "agency": "SH",
@@ -1089,82 +1014,6 @@
       "dateSource": "서울주거포털 공고게시일",
       "detailUrl": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=308644",
       "memo": "세부유형: 도시형생활주택. 접수 일정과 대상은 SH 공식 공고문에서 확인하세요.",
-      "isSample": false
-    },
-    {
-      "id": "APPLYHOME-APT-2026820006-2026820006",
-      "title": "시흥거모 A-5블록 신혼희망타운(공공분양)(본청약)",
-      "agency": "청약홈",
-      "region": "경기",
-      "type": "민간분양",
-      "targets": [
-        "일반공급",
-        "신혼부부"
-      ],
-      "start": "2026-08-18",
-      "end": "2026-08-26",
-      "detailUrl": "https://apply.lh.or.kr/",
-      "memo": "청약홈 API · APT · 모집공고일 2026-08-07. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false
-    },
-    {
-      "id": "APPLYHOME-APT-2026000374-2026000374",
-      "title": "더샵 신길센트럴시티(조합원 취소분)",
-      "agency": "청약홈",
-      "region": "서울",
-      "type": "민간분양",
-      "targets": [
-        "일반공급"
-      ],
-      "start": "2026-08-18",
-      "end": "2026-08-21",
-      "detailUrl": "https://더샵신길센트럴시티.kr",
-      "memo": "청약홈 API · APT · 모집공고일 2026-08-07. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false
-    },
-    {
-      "id": "APPLYHOME-APT-2026000371-2026000371",
-      "title": "용인반도체클러스터 동일하이빌 파크밸리(D1-1블록)",
-      "agency": "청약홈",
-      "region": "경기",
-      "type": "민간분양",
-      "targets": [
-        "일반공급"
-      ],
-      "start": "2026-08-18",
-      "end": "2026-08-21",
-      "detailUrl": "https://용인동일하이빌파크밸리.com",
-      "memo": "청약홈 API · APT · 모집공고일 2026-08-07. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false
-    },
-    {
-      "id": "APPLYHOME-APT-2026000364-2026000364",
-      "title": "써밋 클라비온",
-      "agency": "청약홈",
-      "region": "서울",
-      "type": "민간분양",
-      "targets": [
-        "일반공급"
-      ],
-      "start": "2026-08-18",
-      "end": "2026-08-21",
-      "detailUrl": "https://summitclavion.com/",
-      "memo": "청약홈 API · APT · 모집공고일 2026-08-07. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false
-    },
-    {
-      "id": "APPLYHOME-APT-2026000358-2026000358",
-      "title": "충정로역자이르네",
-      "agency": "청약홈",
-      "region": "서울",
-      "type": "민간분양",
-      "targets": [
-        "일반공급"
-      ],
-      "start": "2026-08-18",
-      "end": "2026-08-21",
-      "detailUrl": "https://충정로역자이르네.com",
-      "memo": "청약홈 API · APT · 모집공고일 2026-08-07. 대상별 공급자격은 반드시 원문 확인.",
       "isSample": false
     },
     {
@@ -3690,23 +3539,6 @@
       "isSample": false
     },
     {
-      "id": "LH-db87d54f41e5fa70e8",
-      "title": "경기남부권(수원·용인 광교) 공가세대 일반매각 공고(무순위, 유주택자 가능)",
-      "agency": "LH",
-      "region": "경기",
-      "type": "공공분양",
-      "targets": [
-        "일반공급"
-      ],
-      "start": "2026-11-05",
-      "end": "2026-11-05",
-      "eventKind": "publication",
-      "dateSource": "LH announcement date",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021009&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
-      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 분양주택",
-      "isSample": false
-    },
-    {
       "id": "LH-0b329eb1d0708e38d7",
       "title": "경기남부권(안성 동인힐타운) 다세대주택 공가세대 일반매각 공고(무순위, 무주택세대구성원)",
       "agency": "LH",
@@ -3720,6 +3552,23 @@
       "eventKind": "publication",
       "dateSource": "LH announcement date",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021015&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 분양주택",
+      "isSample": false
+    },
+    {
+      "id": "LH-db87d54f41e5fa70e8",
+      "title": "경기남부권(수원·용인 광교) 공가세대 일반매각 공고(무순위, 유주택자 가능)",
+      "agency": "LH",
+      "region": "경기",
+      "type": "공공분양",
+      "targets": [
+        "일반공급"
+      ],
+      "start": "2026-11-05",
+      "end": "2026-11-05",
+      "eventKind": "publication",
+      "dateSource": "LH announcement date",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021009&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
       "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 분양주택",
       "isSample": false
     },
@@ -4274,6 +4123,85 @@
       "end": "2026-11-17",
       "detailUrl": "https://청계노르웨이숲.com",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-11-09. 대상별 공급자격은 반드시 원문 확인.",
+      "isSample": false
+    },
+    {
+      "id": "LH-aaeaa252d8fe479e04",
+      "title": "파주운정A4BL(별하람3) 10년 공공임대주택리츠 예비입주자 모집(무순위)",
+      "agency": "LH",
+      "region": "경기",
+      "type": "공공임대",
+      "targets": [],
+      "start": "2026-11-16",
+      "end": "2026-11-16",
+      "eventKind": "publication",
+      "dateSource": "LH announcement date",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061212&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
+      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 공공임대",
+      "isSample": false
+    },
+    {
+      "id": "LH-bbfebea08d32aeab2f",
+      "title": "파주운정A20BL(산내2) 10년 공공임대주택리츠 예비입주자모집(무순위)",
+      "agency": "LH",
+      "region": "경기",
+      "type": "공공임대",
+      "targets": [],
+      "start": "2026-11-16",
+      "end": "2026-11-16",
+      "eventKind": "publication",
+      "dateSource": "LH announcement date",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061210&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
+      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 공공임대",
+      "isSample": false
+    },
+    {
+      "id": "LH-9f61eb4596954766a4",
+      "title": "위례 A2-7블록 신혼희망타운 행복주택 가정어린이집 운영예정자 모집공고",
+      "agency": "LH",
+      "region": "경기",
+      "type": "공공임대",
+      "targets": [
+        "신혼부부"
+      ],
+      "start": "2026-11-16",
+      "end": "2026-11-16",
+      "eventKind": "publication",
+      "dateSource": "LH announcement date",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021058&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=40&mi=1026",
+      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 가정어린이집",
+      "isSample": false
+    },
+    {
+      "id": "LH-2e024cf441f952b5b2",
+      "title": "안산시 영구임대주택 예비입주자 모집(2026.11.16)",
+      "agency": "LH",
+      "region": "경기",
+      "type": "공공임대",
+      "targets": [
+        "일반공급"
+      ],
+      "start": "2026-11-16",
+      "end": "2026-11-16",
+      "eventKind": "publication",
+      "dateSource": "LH announcement date",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021068&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 영구임대",
+      "isSample": false
+    },
+    {
+      "id": "SH-313268",
+      "title": "동작구 홀몸어르신(수요자맞춤형)주택 잔여세대 입주자 모집 공고",
+      "agency": "SH",
+      "region": "서울",
+      "type": "공공임대",
+      "targets": [],
+      "start": "2026-11-16",
+      "end": "2026-11-16",
+      "eventKind": "publication",
+      "dateSource": "서울주거포털 공고게시일",
+      "detailUrl": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=313268",
+      "memo": "세부유형: 수요자맞춤형. 접수 일정과 대상은 SH 공식 공고문에서 확인하세요.",
       "isSample": false
     },
     {
