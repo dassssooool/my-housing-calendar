@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-11-17T01:21:00.478180+00:00",
+  "exportedAt": "2026-11-18T00:17:13.577201+00:00",
   "entries": [
     {
       "id": "SH-281608",
@@ -1832,91 +1832,6 @@
       "end": "2026-10-02",
       "detailUrl": "https://apply.lh.or.kr",
       "memo": "청약홈 API · APT · 모집공고일 2026-08-31. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false
-    },
-    {
-      "id": "LH-b3ce5ef63c171b2817",
-      "title": "강서염창 통합공공임대주택 최초 입주자 모집공고",
-      "agency": "LH",
-      "region": "서울",
-      "type": "공공임대",
-      "targets": [
-        "일반공급"
-      ],
-      "start": "2026-09-17",
-      "end": "2026-09-17",
-      "eventKind": "publication",
-      "dateSource": "LH announcement date",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020753&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=48&mi=1026",
-      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 통합공공임대",
-      "isSample": false
-    },
-    {
-      "id": "LH-f12d14c37941ce60d8",
-      "title": "[정정공고]화성동탄2 10년 분양전환공공임대주택(리츠) 예비입주자모집공고('26.09)",
-      "agency": "LH",
-      "region": "경기",
-      "type": "공공임대",
-      "targets": [
-        "일반공급"
-      ],
-      "start": "2026-09-17",
-      "end": "2026-09-17",
-      "eventKind": "publication",
-      "dateSource": "LH announcement date",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061177&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
-      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 공공임대",
-      "isSample": false
-    },
-    {
-      "id": "LH-9a74d1755b083d96dd",
-      "title": "[서울지역본부] 26년 3차 청년 매입임대주택 예비입주자 모집공고",
-      "agency": "LH",
-      "region": "서울",
-      "type": "공공임대",
-      "targets": [
-        "청년"
-      ],
-      "start": "2026-09-17",
-      "end": "2026-09-17",
-      "eventKind": "publication",
-      "dateSource": "LH announcement date",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020759&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 매입임대",
-      "isSample": false
-    },
-    {
-      "id": "LH-bc752089ad24a0f1b9",
-      "title": "[서울지역본부] 26년 3차 신혼·신생아 매입임대Ⅰ 예비입주자 모집공고",
-      "agency": "LH",
-      "region": "서울",
-      "type": "공공임대",
-      "targets": [
-        "신혼부부"
-      ],
-      "start": "2026-09-17",
-      "end": "2026-09-17",
-      "eventKind": "publication",
-      "dateSource": "LH announcement date",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020750&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 매입임대",
-      "isSample": false
-    },
-    {
-      "id": "LH-8b6f4bb6742b59ed07",
-      "title": "[서울지역본부] 26년 3차 신혼·신생아매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
-      "agency": "LH",
-      "region": "서울",
-      "type": "공공임대",
-      "targets": [
-        "신혼부부"
-      ],
-      "start": "2026-09-17",
-      "end": "2026-09-17",
-      "eventKind": "publication",
-      "dateSource": "LH announcement date",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020749&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 매입임대",
       "isSample": false
     },
     {
@@ -4205,6 +4120,21 @@
       "isSample": false
     },
     {
+      "id": "LH-16d087e440fccb0f7f",
+      "title": "NHF제13호 화성봉담2 그랑드비체5단지 가정어린이집 운영예정자 모집 공고",
+      "agency": "LH",
+      "region": "경기",
+      "type": "공공임대",
+      "targets": [],
+      "start": "2026-11-17",
+      "end": "2026-11-17",
+      "eventKind": "publication",
+      "dateSource": "LH announcement date",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061209&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=40&mi=1026",
+      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 가정어린이집",
+      "isSample": false
+    },
+    {
       "id": "APPLYHOME-잔여세대-2026910299-2026910299",
       "title": "용인 양지 서희스타힐스 하이뷰 (조합원 취소분)",
       "agency": "청약홈",
@@ -4262,6 +4192,21 @@
       "end": "2026-11-25",
       "detailUrl": "https://www.부천대장하우스토리디센트.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-11-12. 대상별 공급자격은 반드시 원문 확인.",
+      "isSample": false
+    },
+    {
+      "id": "APPLYHOME-잔여세대-2026930045-2026930045",
+      "title": "잠실 래미안아이파크",
+      "agency": "청약홈",
+      "region": "서울",
+      "type": "민간분양",
+      "targets": [
+        "일반공급"
+      ],
+      "start": "2026-11-23",
+      "end": "2026-11-24",
+      "detailUrl": "https://www.raemian.co.kr/sales/s/jamsiljinju",
+      "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-11-17. 대상별 공급자격은 반드시 원문 확인.",
       "isSample": false
     },
     {
