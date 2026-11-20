@@ -109,12 +109,12 @@
       "region": "경기",
       "type": "공공임대",
       "targets": [],
-      "start": "2026-09-30",
-      "end": "2026-09-30",
-      "eventKind": "publication",
-      "dateSource": "LH announcement date",
+      "start": "2026-10-21",
+      "end": "2026-10-23",
+      "eventKind": "application",
+      "dateSource": "LH official detail application period",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020802&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 매입임대",
+      "memo": "청약 접수기간 2026-10-21~2026-10-23. 접수 시간과 자격은 공식 공고문을 확인하세요.",
       "isSample": false
     },
     {
@@ -124,12 +124,12 @@
       "region": "서울",
       "type": "공공임대",
       "targets": [],
-      "start": "2026-10-01",
-      "end": "2026-10-01",
-      "eventKind": "publication",
-      "dateSource": "LH announcement date",
+      "start": "2026-10-14",
+      "end": "2026-10-16",
+      "eventKind": "application",
+      "dateSource": "LH official detail application period",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020843&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 매입임대",
+      "memo": "청약 접수기간 2026-10-14~2026-10-16. 접수 시간과 자격은 공식 공고문을 확인하세요.",
       "isSample": false
     },
     {
@@ -139,12 +139,12 @@
       "region": "경기",
       "type": "공공임대",
       "targets": [],
-      "start": "2026-10-01",
-      "end": "2026-10-01",
-      "eventKind": "publication",
-      "dateSource": "LH announcement date",
+      "start": "2026-10-13",
+      "end": "2026-10-15",
+      "eventKind": "application",
+      "dateSource": "LH official detail application period",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020755&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 매입임대",
+      "memo": "청약 접수기간 2026-10-13~2026-10-15. 접수 시간과 자격은 공식 공고문을 확인하세요.",
       "isSample": false
     },
     {
@@ -172,12 +172,12 @@
       "region": "경기",
       "type": "공공임대",
       "targets": [],
-      "start": "2026-10-07",
-      "end": "2026-10-07",
-      "eventKind": "publication",
-      "dateSource": "LH announcement date",
+      "start": "2026-10-20",
+      "end": "2026-10-23",
+      "eventKind": "application",
+      "dateSource": "LH official detail application period",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020880&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 매입임대",
+      "memo": "청약 접수기간 2026-10-20~2026-10-23. 접수 시간과 자격은 공식 공고문을 확인하세요.",
       "isSample": false
     },
     {
@@ -189,12 +189,12 @@
       "targets": [
         "청년"
       ],
-      "start": "2026-10-16",
-      "end": "2026-10-16",
-      "eventKind": "publication",
-      "dateSource": "LH announcement date",
+      "start": "2026-10-27",
+      "end": "2026-10-29",
+      "eventKind": "application",
+      "dateSource": "LH official detail application period",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020900&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 매입임대",
+      "memo": "청약 접수기간 2026-10-27~2026-10-29. 접수 시간과 자격은 공식 공고문을 확인하세요.",
       "isSample": false
     },
     {
@@ -204,12 +204,12 @@
       "region": "경기",
       "type": "공공임대",
       "targets": [],
-      "start": "2026-10-19",
-      "end": "2026-10-19",
-      "eventKind": "publication",
-      "dateSource": "LH announcement date",
+      "start": "2026-10-21",
+      "end": "2026-10-23",
+      "eventKind": "application",
+      "dateSource": "LH official detail application period",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020927&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 매입임대",
+      "memo": "청약 접수기간 2026-10-21~2026-10-23. 접수 시간과 자격은 공식 공고문을 확인하세요.",
       "isSample": false
     },
     {
@@ -788,7 +788,7 @@
       "eventKind": "application",
       "dateSource": "LH official detail application period",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021074&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "청약 접수기간 2026-12-01~2026-12-03. 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
+      "memo": "청약 접수기간 2026-12-01~2026-12-03. 접수 시간과 자격은 공식 공고문을 확인하세요.",
       "isSample": false
     },
     {
@@ -805,7 +805,7 @@
       "eventKind": "application",
       "dateSource": "LH official detail application period",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021072&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "청약 접수기간 2026-12-01~2026-12-03. 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
+      "memo": "청약 접수기간 2026-12-01~2026-12-03. 접수 시간과 자격은 공식 공고문을 확인하세요.",
       "isSample": false
     }
   ]
