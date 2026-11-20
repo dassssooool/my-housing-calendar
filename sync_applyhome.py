@@ -58,6 +58,7 @@ def make_notice(row,kind):
     return {'id':'APPLYHOME-'+kind+'-'+no,'title':house,'agency':'청약홈','region':region,
             'type':'민간분양' if kind!='오피스텔·도시형·민간임대' else '민간임대',
             'targets':list(dict.fromkeys(targets)),'start':start,'end':end,
+            'eventKind':'application','dateSource':'청약홈 API 접수기간',
             'detailUrl':link,'memo':f'청약홈 API · {kind} · 모집공고일 {row.get("RCRIT_PBLANC_DE", "미확인")}. 대상별 공급자격은 반드시 원문 확인.',
             'isSample':False}
 
