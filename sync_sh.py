@@ -84,7 +84,7 @@ def application_period(source):
     )
     periods = []
     for match in re.finditer(pattern, text):
-        if re.search(r"서류\\s*$", text[max(0, match.start() - 10):match.start()]):
+        if re.search(r"서류\s*$", text[max(0, match.start() - 10):match.start()]):
             continue
         year, month, day, end_year, end_month, end_day = match.groups()
         try:
