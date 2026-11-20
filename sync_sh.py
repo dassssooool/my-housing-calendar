@@ -3,6 +3,9 @@ import datetime
 import json
 import re
 import sys
+import time
+from concurrent.futures import ThreadPoolExecutor
+from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import parse_qs, urlsplit
@@ -19,11 +22,12 @@ class NoticeList(HTMLParser):
         self.cell = None
         self.link = ""
         self.pages = None
+        self.portal = ""
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
         if tag == "tr":
-            self.cells, self.link = [], ""
+            self.cells, self.link, self.portal = [], "", ""
         elif tag == "td" and self.cells is not None:
             self.cell = []
         elif tag == "a":
@@ -37,6 +41,11 @@ class NoticeList(HTMLParser):
                     and parsed.path.endswith("/view.do") and "seq" in query):
                 self.link = url
 
+    def handle_comment(self, data):
+        match = re.search(r'href="(/site/main/sh/publicLease/view[^"]+)"', data)
+        if self.cells is not None and match:
+            self.portal = "https://housing.seoul.go.kr" + unescape(match.group(1))
+
     def handle_data(self, data):
         if self.cell is not None:
             self.cell.append(data)
@@ -47,7 +56,7 @@ class NoticeList(HTMLParser):
             self.cell = None
         elif tag == "tr" and self.cells is not None:
             if self.link and len(self.cells) >= 8:
-                self.rows.append((self.cells, self.link))
+                self.rows.append((self.cells, self.link, self.portal))
             self.cells = None
 
 
@@ -62,12 +71,57 @@ def load_page(page):
     return parsed
 
 
+
+def application_period(source):
+    """Accept date ranges immediately following an explicit reception label."""
+    text = unescape(re.sub(r"<[^>]+>", " ", source))
+    date = r"(\d{4})[.\-/]\s*(\d{1,2})[.\-/]\s*(\d{1,2})\.?"
+    end_date = r"(?:(\d{4})[.\-/]\s*)?(\d{1,2})[.\-/]\s*(\d{1,2})\.?"
+    pattern = (
+        r"(?<!서류)(?:청약\s*접수기간|청약\s*신청기간|접수기간|신청접수기간)"
+        r"\s*[:：]?\s*" + date
+        + r"[^0-9~～∼]{0,30}[~～∼]\s*" + end_date
+    )
+    periods = []
+    for match in re.finditer(pattern, text):
+        year, month, day, end_year, end_month, end_day = match.groups()
+        try:
+            start = datetime.date(int(year), int(month), int(day))
+            end = datetime.date(int(end_year or year), int(end_month), int(end_day))
+        except ValueError:
+            continue
+        if start <= end:
+            periods.append((start.isoformat(), end.isoformat()))
+    # Separate reception rounds require their own events rather than a merged range.
+    return periods[0] if len(set(periods)) == 1 else None
+
+
+def enrich_notice(item):
+    notice, source = item
+    if not source:
+        return notice
+    for attempt in range(3):
+        try:
+            with urlopen(Request(source, headers={"User-Agent": "HousingCalendar/1.1"}), timeout=20) as response:
+                period = application_period(response.read().decode("utf-8"))
+            if period:
+                notice.update(start=period[0], end=period[1], eventKind="application",
+                              dateSource="서울주거포털 SH 상세 접수기간", sourceUrl=source,
+                              memo=notice["memo"] + f" 접수기간: {period[0]}~{period[1]}.")
+            return notice
+        except (OSError, UnicodeError):
+            if attempt < 2:
+                time.sleep(2)
+    print(f"WARNING: SH detail unavailable: {notice['id']}")
+    return notice
+
+
 def collect():
     notices = {}
     first = load_page(1)
     for page in range(1, (first.pages or 1) + 1):
         listing = first if page == 1 else load_page(page)
-        for cells, link in listing.rows:
+        for cells, link, portal in listing.rows:
             _, kind, title, posted, *_ = cells
             if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", posted):
                 continue
@@ -86,9 +140,11 @@ def collect():
                 "memo": f"세부유형: {kind}. 접수 일정과 대상은 SH 공식 공고문에서 확인하세요.",
                 "isSample": False,
             }
+            notices[seq] = (notices[seq], portal)
     if not notices:
         raise RuntimeError("SH listing returned no usable notices")
-    return list(notices.values())
+    with ThreadPoolExecutor(max_workers=4) as executor:
+        return list(executor.map(enrich_notice, notices.values()))
 
 
 def main():
