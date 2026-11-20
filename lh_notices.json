@@ -783,12 +783,12 @@
       "targets": [
         "신혼부부"
       ],
-      "start": "2026-11-19",
-      "end": "2026-11-19",
-      "eventKind": "publication",
-      "dateSource": "LH announcement date",
+      "start": "2026-12-01",
+      "end": "2026-12-03",
+      "eventKind": "application",
+      "dateSource": "LH official detail application period",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021074&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 매입임대",
+      "memo": "청약 접수기간 2026-12-01~2026-12-03. 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
       "isSample": false
     },
     {
@@ -800,12 +800,12 @@
       "targets": [
         "신혼부부"
       ],
-      "start": "2026-11-19",
-      "end": "2026-11-19",
-      "eventKind": "publication",
-      "dateSource": "LH announcement date",
+      "start": "2026-12-01",
+      "end": "2026-12-03",
+      "eventKind": "application",
+      "dateSource": "LH official detail application period",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021072&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 매입임대",
+      "memo": "청약 접수기간 2026-12-01~2026-12-03. 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
       "isSample": false
     }
   ]
