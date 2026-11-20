@@ -600,21 +600,6 @@
       "isSample": false
     },
     {
-      "id": "LH-bbfebea08d32aeab2f",
-      "title": "파주운정A20BL(산내2) 10년 공공임대주택리츠 예비입주자모집(무순위)",
-      "agency": "LH",
-      "region": "경기",
-      "type": "공공임대",
-      "targets": [],
-      "start": "2026-11-16",
-      "end": "2026-11-16",
-      "eventKind": "publication",
-      "dateSource": "LH announcement date",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061210&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
-      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 공공임대",
-      "isSample": false
-    },
-    {
       "id": "LH-aaeaa252d8fe479e04",
       "title": "파주운정A4BL(별하람3) 10년 공공임대주택리츠 예비입주자 모집(무순위)",
       "agency": "LH",
@@ -626,6 +611,21 @@
       "eventKind": "publication",
       "dateSource": "LH announcement date",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061212&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
+      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 공공임대",
+      "isSample": false
+    },
+    {
+      "id": "LH-bbfebea08d32aeab2f",
+      "title": "파주운정A20BL(산내2) 10년 공공임대주택리츠 예비입주자모집(무순위)",
+      "agency": "LH",
+      "region": "경기",
+      "type": "공공임대",
+      "targets": [],
+      "start": "2026-11-16",
+      "end": "2026-11-16",
+      "eventKind": "publication",
+      "dateSource": "LH announcement date",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061210&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
       "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 공공임대",
       "isSample": false
     },
@@ -725,6 +725,87 @@
       "dateSource": "LH announcement date",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021113&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
       "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 분양주택",
+      "isSample": false
+    },
+    {
+      "id": "LH-d54914e1fe36babdd7",
+      "title": "[정정공고]수원당수 1, 2단지 행복주택 입주자격완화 동호지정 입주자 모집[선계약/후검증]('26.11.18.)",
+      "agency": "LH",
+      "region": "경기",
+      "type": "공공임대",
+      "targets": [],
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "eventKind": "publication",
+      "dateSource": "LH announcement date",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021119&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 행복주택",
+      "isSample": false
+    },
+    {
+      "id": "LH-caff62ab5088fe675b",
+      "title": "서울삼전,강동천호,LH수서1,LH수서2 행복주택 예비입주자 모집공고",
+      "agency": "LH",
+      "region": "서울",
+      "type": "공공임대",
+      "targets": [],
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "eventKind": "publication",
+      "dateSource": "LH announcement date",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021098&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 행복주택",
+      "isSample": false
+    },
+    {
+      "id": "LH-46492980dda4541343",
+      "title": "2026년 서울특별시 영구임대주택 예비입주자 모집",
+      "agency": "LH",
+      "region": "서울",
+      "type": "공공임대",
+      "targets": [
+        "일반공급"
+      ],
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "eventKind": "publication",
+      "dateSource": "LH announcement date",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021109&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 영구임대",
+      "isSample": false
+    },
+    {
+      "id": "LH-1727f7cba61d3ec3ba",
+      "title": "[경기북부] 2026년 3차 신혼·신생아 매입임대Ⅱ(전세형) 예비입주자 모집 공고",
+      "agency": "LH",
+      "region": "경기",
+      "type": "공공임대",
+      "targets": [
+        "신혼부부"
+      ],
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "eventKind": "publication",
+      "dateSource": "LH announcement date",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021074&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 매입임대",
+      "isSample": false
+    },
+    {
+      "id": "LH-2742df0bc29958dabd",
+      "title": "[경기북부] 2026년 3차 신혼·신생아 매입임대Ⅰ예비입주자 모집 공고",
+      "agency": "LH",
+      "region": "경기",
+      "type": "공공임대",
+      "targets": [
+        "신혼부부"
+      ],
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "eventKind": "publication",
+      "dateSource": "LH announcement date",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021072&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 매입임대",
       "isSample": false
     }
   ]
