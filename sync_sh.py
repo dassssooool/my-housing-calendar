@@ -152,7 +152,17 @@ def collect():
 def main():
     path = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("notices.json")
     data = json.loads(path.read_text(encoding="utf-8"))
+    cache = path.with_name("sh_notices.json")
+    previous = json.loads(cache.read_text(encoding="utf-8")).get("entries", []) if cache.exists() else data["entries"]
+    verified = {n["id"]: n for n in previous if n.get("agency") == "SH" and n.get("eventKind") == "application"}
     sh = collect()
+    for notice in sh:
+        old = verified.get(notice["id"])
+        if old and notice["eventKind"] != "application":
+            for field in ("start", "end", "eventKind", "dateSource", "memo", "sourceUrl"):
+                if field in old:
+                    notice[field] = old[field]
+    cache.write_text(json.dumps({"entries": sh}, ensure_ascii=False, indent=2), encoding="utf-8")
     data["entries"] = sorted(
         [notice for notice in data["entries"] if notice.get("agency") != "SH"] + sh,
         key=lambda notice: notice["start"],
