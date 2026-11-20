@@ -103,51 +103,6 @@
       "isSample": false
     },
     {
-      "id": "LH-287dbd8f800cb5650d",
-      "title": "[경기남부] 든든전세 매입임대주택 예비입주자 모집공고(비분양전환)",
-      "agency": "LH",
-      "region": "경기",
-      "type": "공공임대",
-      "targets": [],
-      "start": "2026-10-21",
-      "end": "2026-10-23",
-      "eventKind": "application",
-      "dateSource": "LH official detail application period",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020802&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "청약 접수기간 2026-10-21~2026-10-23. 접수 시간과 자격은 공식 공고문을 확인하세요.",
-      "isSample": false
-    },
-    {
-      "id": "LH-36b39b9341f1a88828",
-      "title": "[서울지역본부] 26년 2차 비분양전환형 든든전세주택 입주자 모집공고",
-      "agency": "LH",
-      "region": "서울",
-      "type": "공공임대",
-      "targets": [],
-      "start": "2026-10-14",
-      "end": "2026-10-16",
-      "eventKind": "application",
-      "dateSource": "LH official detail application period",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020843&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "청약 접수기간 2026-10-14~2026-10-16. 접수 시간과 자격은 공식 공고문을 확인하세요.",
-      "isSample": false
-    },
-    {
-      "id": "LH-9992fb96408767dfac",
-      "title": "[경기북부] 2026년 4차 비분양전환형 든든전세주택 입주자 모집공고",
-      "agency": "LH",
-      "region": "경기",
-      "type": "공공임대",
-      "targets": [],
-      "start": "2026-10-13",
-      "end": "2026-10-15",
-      "eventKind": "application",
-      "dateSource": "LH official detail application period",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020755&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "청약 접수기간 2026-10-13~2026-10-15. 접수 시간과 자격은 공식 공고문을 확인하세요.",
-      "isSample": false
-    },
-    {
       "id": "LH-49380dc080953f9a34",
       "title": "하남시 신혼희망타운 행복주택 예비입주자 모집공고(2026.10.01)",
       "agency": "LH",
@@ -166,6 +121,36 @@
       "isSample": false
     },
     {
+      "id": "LH-9992fb96408767dfac",
+      "title": "[경기북부] 2026년 4차 비분양전환형 든든전세주택 입주자 모집공고",
+      "agency": "LH",
+      "region": "경기",
+      "type": "공공임대",
+      "targets": [],
+      "start": "2026-10-13",
+      "end": "2026-10-15",
+      "eventKind": "application",
+      "dateSource": "LH official detail application period",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020755&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "memo": "청약 접수기간 2026-10-13~2026-10-15 (LH official detail application period). 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
+      "isSample": false
+    },
+    {
+      "id": "LH-36b39b9341f1a88828",
+      "title": "[서울지역본부] 26년 2차 비분양전환형 든든전세주택 입주자 모집공고",
+      "agency": "LH",
+      "region": "서울",
+      "type": "공공임대",
+      "targets": [],
+      "start": "2026-10-14",
+      "end": "2026-10-16",
+      "eventKind": "application",
+      "dateSource": "LH official detail application period",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020843&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "memo": "청약 접수기간 2026-10-14~2026-10-16 (LH official detail application period). 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
+      "isSample": false
+    },
+    {
       "id": "LH-a676819014abffc772",
       "title": "장애인 자립특화형 주택 여기가 입주자 모집공고(경기도 김포시)",
       "agency": "LH",
@@ -177,24 +162,7 @@
       "eventKind": "application",
       "dateSource": "LH official detail application period",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020880&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "청약 접수기간 2026-10-20~2026-10-23. 접수 시간과 자격은 공식 공고문을 확인하세요.",
-      "isSample": false
-    },
-    {
-      "id": "LH-60197ef0814a271e2a",
-      "title": "[경기북부] 청년 매입임대주택 선착순 예비입주자 모집공고 (김포시, 포천시)",
-      "agency": "LH",
-      "region": "경기",
-      "type": "공공임대",
-      "targets": [
-        "청년"
-      ],
-      "start": "2026-10-27",
-      "end": "2026-10-29",
-      "eventKind": "application",
-      "dateSource": "LH official detail application period",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020900&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "청약 접수기간 2026-10-27~2026-10-29. 접수 시간과 자격은 공식 공고문을 확인하세요.",
+      "memo": "청약 접수기간 2026-10-20~2026-10-23 (LH official detail application period). 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
       "isSample": false
     },
     {
@@ -209,7 +177,22 @@
       "eventKind": "application",
       "dateSource": "LH official detail application period",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020927&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "청약 접수기간 2026-10-21~2026-10-23. 접수 시간과 자격은 공식 공고문을 확인하세요.",
+      "memo": "청약 접수기간 2026-10-21~2026-10-23 (LH official detail application period). 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
+      "isSample": false
+    },
+    {
+      "id": "LH-287dbd8f800cb5650d",
+      "title": "[경기남부] 든든전세 매입임대주택 예비입주자 모집공고(비분양전환)",
+      "agency": "LH",
+      "region": "경기",
+      "type": "공공임대",
+      "targets": [],
+      "start": "2026-10-21",
+      "end": "2026-10-23",
+      "eventKind": "application",
+      "dateSource": "LH official detail application period",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020802&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "memo": "청약 접수기간 2026-10-21~2026-10-23 (LH official detail application period). 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
       "isSample": false
     },
     {
@@ -262,6 +245,23 @@
       "dateSource": "LH announcement date",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061165&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
       "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 공공분양(신혼희망)",
+      "isSample": false
+    },
+    {
+      "id": "LH-60197ef0814a271e2a",
+      "title": "[경기북부] 청년 매입임대주택 선착순 예비입주자 모집공고 (김포시, 포천시)",
+      "agency": "LH",
+      "region": "경기",
+      "type": "공공임대",
+      "targets": [
+        "청년"
+      ],
+      "start": "2026-10-27",
+      "end": "2026-10-29",
+      "eventKind": "application",
+      "dateSource": "LH official detail application period",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020900&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "memo": "청약 접수기간 2026-10-27~2026-10-29 (LH official detail application period). 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
       "isSample": false
     },
     {
@@ -788,7 +788,7 @@
       "eventKind": "application",
       "dateSource": "LH official detail application period",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021074&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "청약 접수기간 2026-12-01~2026-12-03. 접수 시간과 자격은 공식 공고문을 확인하세요.",
+      "memo": "청약 접수기간 2026-12-01~2026-12-03 (LH official detail application period). 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
       "isSample": false
     },
     {
@@ -805,7 +805,7 @@
       "eventKind": "application",
       "dateSource": "LH official detail application period",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021072&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "청약 접수기간 2026-12-01~2026-12-03. 접수 시간과 자격은 공식 공고문을 확인하세요.",
+      "memo": "청약 접수기간 2026-12-01~2026-12-03 (LH official detail application period). 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
       "isSample": false
     }
   ]

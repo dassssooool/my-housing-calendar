@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-11-20T00:04:12.307817+00:00",
+  "exportedAt": "2026-11-20T23:33:10.565952+00:00",
   "entries": [
     {
       "id": "SH-281608",
@@ -1027,11 +1027,11 @@
       ],
       "start": "2026-08-19",
       "end": "2026-08-21",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://두산위브더제니스부천.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-08-12. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950070-2026950070",
@@ -1044,11 +1044,11 @@
       ],
       "start": "2026-08-19",
       "end": "2026-08-25",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.선유노블레르.com",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-08-14. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910218-2026910218",
@@ -1061,11 +1061,11 @@
       ],
       "start": "2026-08-19",
       "end": "2026-08-19",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://천왕역모아엘가트레뷰.net",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-08-14. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "SH-308340",
@@ -1125,11 +1125,11 @@
       ],
       "start": "2026-08-24",
       "end": "2026-08-27",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.쌍용더플래티넘서대문.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-08-14. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000354-2026000354",
@@ -1142,11 +1142,11 @@
       ],
       "start": "2026-08-24",
       "end": "2026-08-26",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.lottecastle.co.kr/APT/AT00430/main/index.do",
       "memo": "청약홈 API · APT · 모집공고일 2026-08-14. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000377-2026000377",
@@ -1159,11 +1159,11 @@
       ],
       "start": "2026-08-24",
       "end": "2026-08-27",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://의왕역한신더휴.kr",
       "memo": "청약홈 API · APT · 모집공고일 2026-08-13. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000365-2026000365",
@@ -1176,11 +1176,11 @@
       ],
       "start": "2026-08-24",
       "end": "2026-08-26",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://오남역서희스타힐스1단지.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-08-13. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950073-2026950073",
@@ -1193,11 +1193,11 @@
       ],
       "start": "2026-08-24",
       "end": "2026-08-25",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-08-19. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950074-2026950074",
@@ -1210,11 +1210,11 @@
       ],
       "start": "2026-08-24",
       "end": "2026-08-24",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "http://www.월드메르디앙올림픽파크.com",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-08-18. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950072-2026950072",
@@ -1227,11 +1227,11 @@
       ],
       "start": "2026-08-24",
       "end": "2026-08-24",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.isbiztower-dmc.co.kr/officetel",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-08-18. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "SH-308971",
@@ -1261,11 +1261,11 @@
       ],
       "start": "2026-08-26",
       "end": "2026-09-01",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.왕십리역어반홈스.kr",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-08-21. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026930028-2026930028",
@@ -1278,11 +1278,11 @@
       ],
       "start": "2026-08-26",
       "end": "2026-08-26",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.lottecastle.co.kr/APT/AT00383/main/index.do",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-08-21. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "SH-310107",
@@ -1342,11 +1342,11 @@
       ],
       "start": "2026-08-31",
       "end": "2026-09-02",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.prugio.com/hb/2026/pravenue",
       "memo": "청약홈 API · APT · 모집공고일 2026-08-21. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000388-2026000388",
@@ -1359,11 +1359,11 @@
       ],
       "start": "2026-08-31",
       "end": "2026-09-02",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://cityociel9.com/",
       "memo": "청약홈 API · APT · 모집공고일 2026-08-21. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910229-2026910229",
@@ -1376,11 +1376,11 @@
       ],
       "start": "2026-08-31",
       "end": "2026-08-31",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://hobansummit-pungmu3.co.kr/",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-08-26. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910222-2026910222",
@@ -1393,11 +1393,11 @@
       ],
       "start": "2026-08-31",
       "end": "2026-08-31",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.xi.co.kr/osxi",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-08-25. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "SH-309467",
@@ -1425,11 +1425,11 @@
       ],
       "start": "2026-09-01",
       "end": "2026-09-02",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "http://www.detre-dt.co.kr",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-08-27. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910224-2026910224",
@@ -1442,11 +1442,11 @@
       ],
       "start": "2026-09-01",
       "end": "2026-09-01",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.prugio.com/hb/2026/markone/",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-08-27. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910221-2026910221",
@@ -1459,11 +1459,11 @@
       ],
       "start": "2026-09-01",
       "end": "2026-09-07",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.여의도더로드캐슬.kr",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-08-27. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026930030-2026930030",
@@ -1476,11 +1476,11 @@
       ],
       "start": "2026-09-02",
       "end": "2026-09-02",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://jeil-gd4.co.kr/",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-08-28. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910225-2026910225",
@@ -1493,11 +1493,11 @@
       ],
       "start": "2026-09-02",
       "end": "2026-09-02",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://uws.skview.co.kr",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-08-28. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910226-2026910226",
@@ -1510,11 +1510,11 @@
       ],
       "start": "2026-09-03",
       "end": "2026-09-04",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.에스아이팰리스.net",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-08-27. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000399-2026000399",
@@ -1527,11 +1527,11 @@
       ],
       "start": "2026-09-07",
       "end": "2026-09-10",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.브라운스톤월곡센트럴.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-08-28. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000409-2026000409",
@@ -1544,11 +1544,11 @@
       ],
       "start": "2026-09-07",
       "end": "2026-09-17",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://apply.lh.or.kr",
       "memo": "청약홈 API · APT · 모집공고일 2026-08-26. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910230-2026910230",
@@ -1561,11 +1561,11 @@
       ],
       "start": "2026-09-07",
       "end": "2026-09-07",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://incheon.forena.co.kr/",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-08-31. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026820009-2026820009",
@@ -1579,11 +1579,11 @@
       ],
       "start": "2026-09-08",
       "end": "2026-09-09",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://apply.lh.or.kr",
       "memo": "청약홈 API · APT · 모집공고일 2026-08-31. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950078-2026950078",
@@ -1596,11 +1596,11 @@
       ],
       "start": "2026-09-08",
       "end": "2026-09-08",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "http://www.해링턴스퀘어과천.com",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-09-03. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950076-2026950076",
@@ -1613,11 +1613,11 @@
       ],
       "start": "2026-09-08",
       "end": "2026-09-08",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://xi.co.kr/MDX",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-09-03. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910228-2026910228",
@@ -1630,11 +1630,11 @@
       ],
       "start": "2026-09-08",
       "end": "2026-09-08",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://nj-seohan.com",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-09-03. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "SH-310041",
@@ -1662,11 +1662,11 @@
       ],
       "start": "2026-09-14",
       "end": "2026-09-16",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://더샵여주역더퍼스트.kr",
       "memo": "청약홈 API · APT · 모집공고일 2026-09-03. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000416-2026000416",
@@ -1679,11 +1679,11 @@
       ],
       "start": "2026-09-14",
       "end": "2026-09-17",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://apply.lh.or.kr",
       "memo": "청약홈 API · APT · 모집공고일 2026-08-27. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950081-2026950081",
@@ -1696,11 +1696,11 @@
       ],
       "start": "2026-09-14",
       "end": "2026-09-15",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://terrace99.co.kr",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-09-09. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950080-2026950080",
@@ -1713,11 +1713,11 @@
       ],
       "start": "2026-09-14",
       "end": "2026-09-14",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://힐스테이트송파더그리드.com",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-09-09. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910232-2026910232",
@@ -1730,11 +1730,11 @@
       ],
       "start": "2026-09-14",
       "end": "2026-09-14",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "http://www.역북프라임시티.com",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-09-09. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910227-2026910227",
@@ -1747,11 +1747,11 @@
       ],
       "start": "2026-09-14",
       "end": "2026-09-14",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://prugio-riverfront.com/",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-09-09. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910237-2026910237",
@@ -1764,11 +1764,11 @@
       ],
       "start": "2026-09-14",
       "end": "2026-09-14",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.jeil-gd4.co.kr",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-09-08. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910235-2026910235",
@@ -1781,11 +1781,11 @@
       ],
       "start": "2026-09-14",
       "end": "2026-09-14",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://청계노르웨이숲.com",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-09-08. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910233-2026910233",
@@ -1798,11 +1798,11 @@
       ],
       "start": "2026-09-14",
       "end": "2026-09-14",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://altia.skdefine.com",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-09-08. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000393-2026000393",
@@ -1815,11 +1815,11 @@
       ],
       "start": "2026-09-15",
       "end": "2026-09-17",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "http://efete-eungye.com/",
       "memo": "청약홈 API · APT · 모집공고일 2026-09-04. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910242-2026910242",
@@ -1832,11 +1832,11 @@
       ],
       "start": "2026-09-15",
       "end": "2026-09-15",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-09-10. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910238-2026910238",
@@ -1849,11 +1849,11 @@
       ],
       "start": "2026-09-15",
       "end": "2026-09-15",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.xi.co.kr/osantf",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-09-10. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000414-2026000414",
@@ -1866,11 +1866,11 @@
       ],
       "start": "2026-09-17",
       "end": "2026-10-02",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://apply.lh.or.kr",
       "memo": "청약홈 API · APT · 모집공고일 2026-08-31. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "SH-310258",
@@ -1898,11 +1898,11 @@
       ],
       "start": "2026-09-21",
       "end": "2026-09-23",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.화서역아너스빌.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-09-11. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000438-2026000438",
@@ -1915,11 +1915,11 @@
       ],
       "start": "2026-09-21",
       "end": "2026-09-23",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://hillstate.co.kr/s/gd12",
       "memo": "청약홈 API · APT · 모집공고일 2026-09-11. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000437-2026000437",
@@ -1932,11 +1932,11 @@
       ],
       "start": "2026-09-21",
       "end": "2026-09-23",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://hillstate.co.kr/s/gd12",
       "memo": "청약홈 API · APT · 모집공고일 2026-09-11. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000103-2026000103",
@@ -1949,11 +1949,11 @@
       ],
       "start": "2026-09-21",
       "end": "2026-09-28",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://더샵분당하이스트.kr",
       "memo": "청약홈 API · APT · 모집공고일 2026-09-11. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000314-2026000314",
@@ -1966,11 +1966,11 @@
       ],
       "start": "2026-09-21",
       "end": "2026-09-23",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "http://중동역다채로움더원.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-09-10. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000431-2026000431",
@@ -1983,11 +1983,11 @@
       ],
       "start": "2026-09-21",
       "end": "2026-09-23",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.오남역서희스타힐스여의재.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-09-09. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950082-2026950082",
@@ -2000,11 +2000,11 @@
       ],
       "start": "2026-09-21",
       "end": "2026-09-23",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.thehive-first.com",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-09-09. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910246-2026910246",
@@ -2017,11 +2017,11 @@
       ],
       "start": "2026-09-21",
       "end": "2026-09-21",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://용인동일하이빌파크밸리.com",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-09-16. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910241-2026910241",
@@ -2034,11 +2034,11 @@
       ],
       "start": "2026-09-21",
       "end": "2026-09-21",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://두산위브더제니스부천.com",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-09-16. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "LH-64e806924f25900206",
@@ -2085,11 +2085,11 @@
       ],
       "start": "2026-09-22",
       "end": "2026-09-22",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://hobansummit-pungmu2.com/",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-09-17. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026930031-2026930031",
@@ -2102,11 +2102,11 @@
       ],
       "start": "2026-09-22",
       "end": "2026-09-23",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.xi.co.kr/csx",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-09-17. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910236-2026910236",
@@ -2119,11 +2119,11 @@
       ],
       "start": "2026-09-22",
       "end": "2026-09-22",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://xi.co.kr/csh",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-09-17. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910244-2026910244",
@@ -2136,11 +2136,11 @@
       ],
       "start": "2026-09-22",
       "end": "2026-09-22",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.더리치먼드미아.com",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-09-15. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "LH-e0da0479a6f812f7bb",
@@ -2170,11 +2170,11 @@
       ],
       "start": "2026-09-23",
       "end": "2026-09-23",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "http://halla-shincheon.co.kr/",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-09-18. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "SH-310673",
@@ -2203,11 +2203,11 @@
       ],
       "start": "2026-09-28",
       "end": "2026-09-29",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.apply.lh.or.kr",
       "memo": "청약홈 API · APT · 모집공고일 2026-09-18. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000448-2026000448",
@@ -2220,11 +2220,11 @@
       ],
       "start": "2026-09-28",
       "end": "2026-09-30",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://숭의역노르웨이숲더스카이.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-09-18. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950083-2026950083",
@@ -2237,11 +2237,11 @@
       ],
       "start": "2026-09-28",
       "end": "2026-09-28",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://숭의역노르웨이숲더스카이.com",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-09-23. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026930037-2026930037",
@@ -2254,11 +2254,11 @@
       ],
       "start": "2026-09-28",
       "end": "2026-09-28",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-09-23. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026930036-2026930036",
@@ -2271,11 +2271,11 @@
       ],
       "start": "2026-09-28",
       "end": "2026-09-28",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-09-23. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910220-2026910220",
@@ -2288,11 +2288,11 @@
       ],
       "start": "2026-09-28",
       "end": "2026-09-28",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.acro.co.kr",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-09-23. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "LH-3581f35d5cc9c48da9",
@@ -2320,11 +2320,11 @@
       ],
       "start": "2026-09-29",
       "end": "2026-10-02",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://광명시티프라디움.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-09-18. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "LH-a48334acbbb8ebe68f",
@@ -2425,11 +2425,11 @@
       ],
       "start": "2026-10-06",
       "end": "2026-10-06",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.오남역서희스타힐스1단지.com",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-10-01. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910250-2026910250",
@@ -2442,11 +2442,11 @@
       ],
       "start": "2026-10-06",
       "end": "2026-10-06",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-10-01. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910251-2026910251",
@@ -2459,11 +2459,11 @@
       ],
       "start": "2026-10-06",
       "end": "2026-10-06",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://충정로역자이르네.com",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-09-28. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026930040-2026930040",
@@ -2476,11 +2476,11 @@
       ],
       "start": "2026-10-06",
       "end": "2026-10-06",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.i-park.com/gangbyeon",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-09-23. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950085-2026950085",
@@ -2493,11 +2493,11 @@
       ],
       "start": "2026-10-07",
       "end": "2026-10-08",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-09-30. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026930038-2026930038",
@@ -2510,11 +2510,11 @@
       ],
       "start": "2026-10-07",
       "end": "2026-10-08",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.arteragy.co.kr",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-10-02. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "SH-311200",
@@ -2542,11 +2542,11 @@
       ],
       "start": "2026-10-12",
       "end": "2026-10-14",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "http://쌍용더플래티넘한강.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-10-02. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000463-2026000463",
@@ -2559,11 +2559,11 @@
       ],
       "start": "2026-10-12",
       "end": "2026-10-14",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://향남역스위첸.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-10-02. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000386-2026000386",
@@ -2576,11 +2576,11 @@
       ],
       "start": "2026-10-12",
       "end": "2026-10-14",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.starhills-yg.co.kr",
       "memo": "청약홈 API · APT · 모집공고일 2026-10-02. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950086-2026950086",
@@ -2593,11 +2593,11 @@
       ],
       "start": "2026-10-12",
       "end": "2026-10-12",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.더샵오산역아크시티.kr",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-10-07. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910256-2026910256",
@@ -2610,11 +2610,11 @@
       ],
       "start": "2026-10-12",
       "end": "2026-10-12",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.lottecastle.co.kr/APT/AT00430/main/index.do",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-10-06. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950087-2026950087",
@@ -2627,11 +2627,11 @@
       ],
       "start": "2026-10-13",
       "end": "2026-10-20",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.더클래스한강.com",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-10-06. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "LH-9992fb96408767dfac",
@@ -2645,7 +2645,7 @@
       "eventKind": "application",
       "dateSource": "LH official detail application period",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020755&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "청약 접수기간 2026-10-13~2026-10-15. 접수 시간과 자격은 공식 공고문을 확인하세요.",
+      "memo": "청약 접수기간 2026-10-13~2026-10-15 (LH official detail application period). 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
       "isSample": false
     },
     {
@@ -2660,7 +2660,7 @@
       "eventKind": "application",
       "dateSource": "LH official detail application period",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020843&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "청약 접수기간 2026-10-14~2026-10-16. 접수 시간과 자격은 공식 공고문을 확인하세요.",
+      "memo": "청약 접수기간 2026-10-14~2026-10-16 (LH official detail application period). 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
       "isSample": false
     },
     {
@@ -2674,11 +2674,11 @@
       ],
       "start": "2026-10-19",
       "end": "2026-10-21",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.xi.co.kr/sangokxi",
       "memo": "청약홈 API · APT · 모집공고일 2026-10-08. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026820010-2026820010",
@@ -2692,11 +2692,11 @@
       ],
       "start": "2026-10-19",
       "end": "2026-10-27",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://apply.lh.or.kr",
       "memo": "청약홈 API · APT · 모집공고일 2026-09-30. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950092-2026950092",
@@ -2709,11 +2709,11 @@
       ],
       "start": "2026-10-19",
       "end": "2026-10-19",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://xi.co.kr/MDX",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-10-14. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950091-2026950091",
@@ -2726,11 +2726,11 @@
       ],
       "start": "2026-10-19",
       "end": "2026-10-20",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "http://수원역아너스빌.com",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-10-13. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950077-2026950077",
@@ -2743,11 +2743,11 @@
       ],
       "start": "2026-10-19",
       "end": "2026-10-20",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://detre-ojop.co.kr",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-10-08. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910262-2026910262",
@@ -2760,11 +2760,11 @@
       ],
       "start": "2026-10-19",
       "end": "2026-10-19",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-10-14. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910263-2026910263",
@@ -2777,11 +2777,11 @@
       ],
       "start": "2026-10-19",
       "end": "2026-10-19",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://청계노르웨이숲.com",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-10-12. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910260-2026910260",
@@ -2794,11 +2794,11 @@
       ],
       "start": "2026-10-19",
       "end": "2026-10-19",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://의왕역한신더휴.kr",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-10-12. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910259-2026910259",
@@ -2811,11 +2811,11 @@
       ],
       "start": "2026-10-19",
       "end": "2026-10-19",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://cityociel9.com/",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-10-12. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910264-2026910264",
@@ -2828,11 +2828,11 @@
       ],
       "start": "2026-10-20",
       "end": "2026-10-20",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "http://efete-eungye.com/",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-10-15. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "LH-a676819014abffc772",
@@ -2846,22 +2846,7 @@
       "eventKind": "application",
       "dateSource": "LH official detail application period",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020880&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "청약 접수기간 2026-10-20~2026-10-23. 접수 시간과 자격은 공식 공고문을 확인하세요.",
-      "isSample": false
-    },
-    {
-      "id": "LH-287dbd8f800cb5650d",
-      "title": "[경기남부] 든든전세 매입임대주택 예비입주자 모집공고(비분양전환)",
-      "agency": "LH",
-      "region": "경기",
-      "type": "공공임대",
-      "targets": [],
-      "start": "2026-10-21",
-      "end": "2026-10-23",
-      "eventKind": "application",
-      "dateSource": "LH official detail application period",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020802&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "청약 접수기간 2026-10-21~2026-10-23. 접수 시간과 자격은 공식 공고문을 확인하세요.",
+      "memo": "청약 접수기간 2026-10-20~2026-10-23 (LH official detail application period). 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
       "isSample": false
     },
     {
@@ -2876,7 +2861,22 @@
       "eventKind": "application",
       "dateSource": "LH official detail application period",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020927&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "청약 접수기간 2026-10-21~2026-10-23. 접수 시간과 자격은 공식 공고문을 확인하세요.",
+      "memo": "청약 접수기간 2026-10-21~2026-10-23 (LH official detail application period). 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
+      "isSample": false
+    },
+    {
+      "id": "LH-287dbd8f800cb5650d",
+      "title": "[경기남부] 든든전세 매입임대주택 예비입주자 모집공고(비분양전환)",
+      "agency": "LH",
+      "region": "경기",
+      "type": "공공임대",
+      "targets": [],
+      "start": "2026-10-21",
+      "end": "2026-10-23",
+      "eventKind": "application",
+      "dateSource": "LH official detail application period",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020802&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "memo": "청약 접수기간 2026-10-21~2026-10-23 (LH official detail application period). 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
       "isSample": false
     },
     {
@@ -2942,11 +2942,11 @@
       ],
       "start": "2026-10-26",
       "end": "2026-10-28",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://아크메르동탄.kr",
       "memo": "청약홈 API · APT · 모집공고일 2026-10-16. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000508-2026000508",
@@ -2959,11 +2959,11 @@
       ],
       "start": "2026-10-26",
       "end": "2026-10-28",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://아크메르동탄.kr",
       "memo": "청약홈 API · APT · 모집공고일 2026-10-16. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000373-2026000373",
@@ -2976,11 +2976,11 @@
       ],
       "start": "2026-10-26",
       "end": "2026-11-06",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.i-sh.co.kr/main/index.do",
       "memo": "청약홈 API · APT · 모집공고일 2026-10-16. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950093-2026950093",
@@ -2993,11 +2993,11 @@
       ],
       "start": "2026-10-26",
       "end": "2026-10-27",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-10-20. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026930044-2026930044",
@@ -3010,11 +3010,11 @@
       ],
       "start": "2026-10-26",
       "end": "2026-10-26",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-10-21. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910268-2026910268",
@@ -3027,11 +3027,11 @@
       ],
       "start": "2026-10-26",
       "end": "2026-10-26",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "http://halla-shincheon.co.kr/",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-10-21. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910265-2026910265",
@@ -3044,11 +3044,11 @@
       ],
       "start": "2026-10-26",
       "end": "2026-10-26",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-10-21. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950088-2026950088",
@@ -3061,11 +3061,11 @@
       ],
       "start": "2026-10-27",
       "end": "2026-10-28",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://gdmetro.com",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-10-22. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910271-2026910271",
@@ -3078,11 +3078,11 @@
       ],
       "start": "2026-10-27",
       "end": "2026-10-28",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-10-22. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910270-2026910270",
@@ -3095,11 +3095,11 @@
       ],
       "start": "2026-10-27",
       "end": "2026-10-27",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://충정로역자이르네.com",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-10-22. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "LH-60197ef0814a271e2a",
@@ -3115,7 +3115,7 @@
       "eventKind": "application",
       "dateSource": "LH official detail application period",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020900&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "청약 접수기간 2026-10-27~2026-10-29. 접수 시간과 자격은 공식 공고문을 확인하세요.",
+      "memo": "청약 접수기간 2026-10-27~2026-10-29 (LH official detail application period). 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
       "isSample": false
     },
     {
@@ -3146,11 +3146,11 @@
       ],
       "start": "2026-10-28",
       "end": "2026-11-03",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.여의도더로드캐슬.kr",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-10-23. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "SH-312339",
@@ -3214,11 +3214,11 @@
       ],
       "start": "2026-11-02",
       "end": "2026-11-03",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://apply.lh.or.kr/",
       "memo": "청약홈 API · APT · 모집공고일 2026-10-23. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000532-2026000532",
@@ -3231,11 +3231,11 @@
       ],
       "start": "2026-11-02",
       "end": "2026-11-04",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.gy-bando.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-10-23. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000531-2026000531",
@@ -3248,11 +3248,11 @@
       ],
       "start": "2026-11-02",
       "end": "2026-11-17",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://apply.lh.or.kr/",
       "memo": "청약홈 API · APT · 모집공고일 2026-10-23. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000530-2026000530",
@@ -3265,11 +3265,11 @@
       ],
       "start": "2026-11-02",
       "end": "2026-11-04",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.gy-bando.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-10-23. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000518-2026000518",
@@ -3282,11 +3282,11 @@
       ],
       "start": "2026-11-02",
       "end": "2026-11-04",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.gtx운정중앙역시티프라디움.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-10-23. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000517-2026000517",
@@ -3299,11 +3299,11 @@
       ],
       "start": "2026-11-02",
       "end": "2026-11-04",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.gtx운정중앙역시티프라디움.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-10-23. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000496-2026000496",
@@ -3316,11 +3316,11 @@
       ],
       "start": "2026-11-02",
       "end": "2026-11-04",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.arkone-prugio.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-10-22. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000502-2026000502",
@@ -3333,11 +3333,11 @@
       ],
       "start": "2026-11-02",
       "end": "2026-11-04",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.hwaseong-lottecastlesignature.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-10-21. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026930043-2026930043",
@@ -3350,11 +3350,11 @@
       ],
       "start": "2026-11-02",
       "end": "2026-11-02",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "http://www.detre-gc.co.kr/",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-10-28. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910278-2026910278",
@@ -3367,11 +3367,11 @@
       ],
       "start": "2026-11-02",
       "end": "2026-11-02",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://숭의역노르웨이숲더스카이.com",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-10-28. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910275-2026910275",
@@ -3384,11 +3384,11 @@
       ],
       "start": "2026-11-02",
       "end": "2026-11-02",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://더샵분당하이스트.kr",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-10-27. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026930042-2026930042",
@@ -3401,11 +3401,11 @@
       ],
       "start": "2026-11-02",
       "end": "2026-11-02",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.lynn.co.kr",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-10-26. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910269-2026910269",
@@ -3418,11 +3418,11 @@
       ],
       "start": "2026-11-02",
       "end": "2026-11-02",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.화서역아너스빌.com",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-10-26. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910257-2026910257",
@@ -3435,11 +3435,11 @@
       ],
       "start": "2026-11-02",
       "end": "2026-11-02",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.lynn.co.kr",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-10-26. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "LH-17b9439beee89ea75e",
@@ -3653,11 +3653,11 @@
       ],
       "start": "2026-11-09",
       "end": "2026-11-18",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://apply.lh.or.kr",
       "memo": "청약홈 API · APT · 모집공고일 2026-10-30. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000528-2026000528",
@@ -3670,11 +3670,11 @@
       ],
       "start": "2026-11-09",
       "end": "2026-11-11",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "http://www.gwanggyo-centreville.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-10-30. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000527-2026000527",
@@ -3687,11 +3687,11 @@
       ],
       "start": "2026-11-09",
       "end": "2026-11-11",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "http://www.gwanggyo-centreville.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-10-30. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000515-2026000515",
@@ -3704,11 +3704,11 @@
       ],
       "start": "2026-11-09",
       "end": "2026-11-11",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://pg2.lynn.co.kr/",
       "memo": "청약홈 API · APT · 모집공고일 2026-10-30. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000472-2026000472",
@@ -3721,11 +3721,11 @@
       ],
       "start": "2026-11-09",
       "end": "2026-11-11",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://guri.ensvil.com/",
       "memo": "청약홈 API · APT · 모집공고일 2026-10-30. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000535-2026000535",
@@ -3738,11 +3738,11 @@
       ],
       "start": "2026-11-09",
       "end": "2026-11-12",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.중앙하이츠구성플랫폼시티.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-10-29. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000525-2026000525",
@@ -3755,11 +3755,11 @@
       ],
       "start": "2026-11-09",
       "end": "2026-11-11",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.엘리프시흥더프라임.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-10-29. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000499-2026000499",
@@ -3772,11 +3772,11 @@
       ],
       "start": "2026-11-09",
       "end": "2026-11-11",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://jije.forena.co.kr/",
       "memo": "청약홈 API · APT · 모집공고일 2026-10-29. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950096-2026950096",
@@ -3789,11 +3789,11 @@
       ],
       "start": "2026-11-09",
       "end": "2026-11-09",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://detre-ojop.co.kr",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-11-04. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910285-2026910285",
@@ -3806,11 +3806,11 @@
       ],
       "start": "2026-11-09",
       "end": "2026-11-09",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://더샵송도그란테르.kr",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-11-04. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910281-2026910281",
@@ -3823,11 +3823,11 @@
       ],
       "start": "2026-11-09",
       "end": "2026-11-09",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://cent.villiv.co.kr",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-11-02. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910282-2026910282",
@@ -3840,11 +3840,11 @@
       ],
       "start": "2026-11-10",
       "end": "2026-11-10",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://광명시티프라디움.com",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-11-05. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910279-2026910279",
@@ -3857,11 +3857,11 @@
       ],
       "start": "2026-11-10",
       "end": "2026-11-10",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.idsd.co.kr",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-11-05. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "LH-05a2fd8b39ac976ac6",
@@ -3923,11 +3923,11 @@
       ],
       "start": "2026-11-11",
       "end": "2026-11-12",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://apply.lh.or.kr",
       "memo": "청약홈 API · APT · 모집공고일 2026-11-03. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910283-2026910283",
@@ -3940,11 +3940,11 @@
       ],
       "start": "2026-11-11",
       "end": "2026-11-11",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "http://www.yjd-verthill.com",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-11-06. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910280-2026910280",
@@ -3957,11 +3957,11 @@
       ],
       "start": "2026-11-11",
       "end": "2026-11-11",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.오남역서희스타힐스여의재.com",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-11-06. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910276-2026910276",
@@ -3974,11 +3974,11 @@
       ],
       "start": "2026-11-11",
       "end": "2026-11-11",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "http://www.geomdan-sclass.com",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-11-06. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "LH-cb72790b182806e319",
@@ -4026,11 +4026,11 @@
       ],
       "start": "2026-11-16",
       "end": "2026-11-27",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://apply.lh.or.kr",
       "memo": "청약홈 API · APT · 모집공고일 2026-11-06. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000557-2026000557",
@@ -4043,11 +4043,11 @@
       ],
       "start": "2026-11-16",
       "end": "2026-11-18",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "http://jeil-foredu.co.kr",
       "memo": "청약홈 API · APT · 모집공고일 2026-11-06. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000553-2026000553",
@@ -4060,11 +4060,11 @@
       ],
       "start": "2026-11-16",
       "end": "2026-11-18",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://feliztower-yangwoo.co.kr",
       "memo": "청약홈 API · APT · 모집공고일 2026-11-06. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000497-2026000497",
@@ -4077,11 +4077,11 @@
       ],
       "start": "2026-11-16",
       "end": "2026-11-19",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.jh-raon.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-11-06. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026820013-2026820013",
@@ -4095,11 +4095,11 @@
       ],
       "start": "2026-11-16",
       "end": "2026-11-24",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://apply.lh.or.kr/",
       "memo": "청약홈 API · APT · 모집공고일 2026-10-30. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950095-2026950095",
@@ -4112,11 +4112,11 @@
       ],
       "start": "2026-11-16",
       "end": "2026-11-18",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.thehive-first.com",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-11-06. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910297-2026910297",
@@ -4129,11 +4129,11 @@
       ],
       "start": "2026-11-16",
       "end": "2026-11-16",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "http://평택고덕대광로제비앙모아엘가.com",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-11-11. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910293-2026910293",
@@ -4146,11 +4146,11 @@
       ],
       "start": "2026-11-16",
       "end": "2026-11-16",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://xi.co.kr/irc",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-11-11. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910291-2026910291",
@@ -4163,11 +4163,11 @@
       ],
       "start": "2026-11-16",
       "end": "2026-11-16",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://xi.co.kr/sd2",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-11-11. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910288-2026910288",
@@ -4180,11 +4180,11 @@
       ],
       "start": "2026-11-16",
       "end": "2026-11-16",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://xi.co.kr/YYH",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-11-11. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910284-2026910284",
@@ -4197,11 +4197,11 @@
       ],
       "start": "2026-11-16",
       "end": "2026-11-16",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "http://중동역다채로움더원.com",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-11-10. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910290-2026910290",
@@ -4214,25 +4214,10 @@
       ],
       "start": "2026-11-16",
       "end": "2026-11-17",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://청계노르웨이숲.com",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-11-09. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
-    },
-    {
-      "id": "SH-313268",
-      "title": "동작구 홀몸어르신(수요자맞춤형)주택 잔여세대 입주자 모집 공고",
-      "agency": "SH",
-      "region": "서울",
-      "type": "공공임대",
-      "targets": [],
-      "start": "2026-11-16",
-      "end": "2026-11-16",
-      "eventKind": "publication",
-      "dateSource": "서울주거포털 공고게시일",
-      "detailUrl": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=313268",
-      "memo": "세부유형: 수요자맞춤형. 접수 일정과 대상은 SH 공식 공고문에서 확인하세요.",
       "isSample": false
     },
     {
@@ -4300,6 +4285,21 @@
       "isSample": false
     },
     {
+      "id": "SH-313268",
+      "title": "동작구 홀몸어르신(수요자맞춤형)주택 잔여세대 입주자 모집 공고",
+      "agency": "SH",
+      "region": "서울",
+      "type": "공공임대",
+      "targets": [],
+      "start": "2026-11-16",
+      "end": "2026-11-16",
+      "eventKind": "publication",
+      "dateSource": "서울주거포털 공고게시일",
+      "detailUrl": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=313268",
+      "memo": "세부유형: 수요자맞춤형. 접수 일정과 대상은 SH 공식 공고문에서 확인하세요.",
+      "isSample": false
+    },
+    {
       "id": "LH-16d087e440fccb0f7f",
       "title": "NHF제13호 화성봉담2 그랑드비체5단지 가정어린이집 운영예정자 모집 공고",
       "agency": "LH",
@@ -4325,11 +4325,11 @@
       ],
       "start": "2026-11-18",
       "end": "2026-11-18",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.starhills-yg.co.kr",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-11-13. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "LH-d330c40974e763cf34",
@@ -4381,21 +4381,6 @@
       "isSample": false
     },
     {
-      "id": "SH-313610",
-      "title": "2026년 영구임대주택 예비입주자모집 공고",
-      "agency": "SH",
-      "region": "서울",
-      "type": "공공임대",
-      "targets": [],
-      "start": "2026-11-19",
-      "end": "2026-11-19",
-      "eventKind": "publication",
-      "dateSource": "서울주거포털 공고게시일",
-      "detailUrl": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=313610",
-      "memo": "세부유형: 영구임대주택. 접수 일정과 대상은 SH 공식 공고문에서 확인하세요.",
-      "isSample": false
-    },
-    {
       "id": "LH-d54914e1fe36babdd7",
       "title": "[정정공고]수원당수 1, 2단지 행복주택 입주자격완화 동호지정 입주자 모집[선계약/후검증]('26.11.18.)",
       "agency": "LH",
@@ -4443,6 +4428,21 @@
       "isSample": false
     },
     {
+      "id": "SH-313610",
+      "title": "2026년 영구임대주택 예비입주자모집 공고",
+      "agency": "SH",
+      "region": "서울",
+      "type": "공공임대",
+      "targets": [],
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "eventKind": "publication",
+      "dateSource": "서울주거포털 공고게시일",
+      "detailUrl": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=313610",
+      "memo": "세부유형: 영구임대주택. 접수 일정과 대상은 SH 공식 공고문에서 확인하세요.",
+      "isSample": false
+    },
+    {
       "id": "APPLYHOME-APT-2026000560-2026000560",
       "title": "해링턴 플레이스 문래",
       "agency": "청약홈",
@@ -4453,11 +4453,11 @@
       ],
       "start": "2026-11-23",
       "end": "2026-11-26",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.해링턴플레이스문래.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-11-13. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000576-2026000576",
@@ -4470,11 +4470,11 @@
       ],
       "start": "2026-11-23",
       "end": "2026-11-25",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://xi.co.kr/armusee",
       "memo": "청약홈 API · APT · 모집공고일 2026-11-12. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000457-2026000457",
@@ -4487,11 +4487,11 @@
       ],
       "start": "2026-11-23",
       "end": "2026-11-25",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.부천대장하우스토리디센트.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-11-12. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026930046-2026930046",
@@ -4504,11 +4504,11 @@
       ],
       "start": "2026-11-23",
       "end": "2026-11-23",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.s-class.co.kr/",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-11-18. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910292-2026910292",
@@ -4521,11 +4521,11 @@
       ],
       "start": "2026-11-23",
       "end": "2026-11-23",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.prugio.com/hb/2026/pravenue",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-11-18. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026930045-2026930045",
@@ -4538,11 +4538,11 @@
       ],
       "start": "2026-11-23",
       "end": "2026-11-24",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.raemian.co.kr/sales/s/jamsiljinju",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-11-17. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950098-2026950098",
@@ -4555,11 +4555,11 @@
       ],
       "start": "2026-11-24",
       "end": "2026-11-24",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://xi.co.kr/armusee",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-11-19. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910307-2026910307",
@@ -4572,11 +4572,11 @@
       ],
       "start": "2026-11-24",
       "end": "2026-11-24",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.gd3-hoban.co.kr/",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-11-19. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-잔여세대-2026910300-2026910300",
@@ -4589,11 +4589,11 @@
       ],
       "start": "2026-11-24",
       "end": "2026-11-24",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://www.xi.co.kr/sangokxi",
       "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-11-19. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "SH-313227",
@@ -4640,11 +4640,11 @@
       ],
       "start": "2026-11-25",
       "end": "2026-11-30",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://brand.hldni.com/gyeonghuigung/",
       "memo": "청약홈 API · APT · 모집공고일 2026-11-13. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950090-2026950090",
@@ -4657,11 +4657,11 @@
       ],
       "start": "2026-11-25",
       "end": "2026-11-26",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://jh-raon.com",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-11-12. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "SH-313424",
@@ -4683,6 +4683,23 @@
       "sourceUrl": "https://housing.seoul.go.kr/site/main/sh/publicLease/view?seq=4&cp=1&supplyType=publicLease"
     },
     {
+      "id": "APPLYHOME-APT-2026000591-2026000591",
+      "title": "소사 휴먼빌",
+      "agency": "청약홈",
+      "region": "경기",
+      "type": "민간분양",
+      "targets": [
+        "일반공급"
+      ],
+      "start": "2026-11-30",
+      "end": "2026-12-02",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
+      "detailUrl": "https://www.소사휴먼빌.com",
+      "memo": "청약홈 API · APT · 모집공고일 2026-11-20. 대상별 공급자격은 반드시 원문 확인.",
+      "isSample": false
+    },
+    {
       "id": "APPLYHOME-APT-2026000585-2026000585",
       "title": "고양 한신더휴 퍼스트원",
       "agency": "청약홈",
@@ -4693,11 +4710,11 @@
       ],
       "start": "2026-11-30",
       "end": "2026-12-02",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://gy-thehue.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-11-19. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "APPLYHOME-APT-2026000575-2026000575",
@@ -4710,11 +4727,11 @@
       ],
       "start": "2026-11-30",
       "end": "2026-12-02",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
       "detailUrl": "https://ws-thehue.com",
       "memo": "청약홈 API · APT · 모집공고일 2026-11-19. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false,
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간"
+      "isSample": false
     },
     {
       "id": "LH-1727f7cba61d3ec3ba",
@@ -4730,7 +4747,7 @@
       "eventKind": "application",
       "dateSource": "LH official detail application period",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021074&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "청약 접수기간 2026-12-01~2026-12-03. 접수 시간과 자격은 공식 공고문을 확인하세요.",
+      "memo": "청약 접수기간 2026-12-01~2026-12-03 (LH official detail application period). 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
       "isSample": false
     },
     {
@@ -4747,7 +4764,24 @@
       "eventKind": "application",
       "dateSource": "LH official detail application period",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021072&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "청약 접수기간 2026-12-01~2026-12-03. 접수 시간과 자격은 공식 공고문을 확인하세요.",
+      "memo": "청약 접수기간 2026-12-01~2026-12-03 (LH official detail application period). 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
+      "isSample": false
+    },
+    {
+      "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950089-2026950089",
+      "title": "청라 아크원 푸르지오",
+      "agency": "청약홈",
+      "region": "인천",
+      "type": "민간임대",
+      "targets": [
+        "일반공급"
+      ],
+      "start": "2026-12-07",
+      "end": "2026-12-07",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
+      "detailUrl": "https://www.arkone-prugio.com",
+      "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-11-20. 대상별 공급자격은 반드시 원문 확인.",
       "isSample": false
     }
   ],
