@@ -44,6 +44,7 @@ jobs:
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add notices.json
+          if [ -f sh_notices.json ]; then git add sh_notices.json; fi
           if [ -f lh_notices.json ]; then git add lh_notices.json; fi
           git diff --cached --quiet || (git commit -m 'Update housing notices' && git push)
       - name: Notify Telegram of update result
