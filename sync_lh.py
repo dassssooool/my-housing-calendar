@@ -6,6 +6,7 @@ import datetime as dt
 import hashlib
 import json
 import os
+import re
 import time
 import urllib.error
 from pathlib import Path
@@ -138,6 +139,31 @@ def extract_application_period(row):
             return (start, end), f"LH API {start_key}/{end_key}"
     return None, ""
 
+
+def detail_application_period(link):
+    """Read only LH's explicit application-period variables."""
+    parsed = urllib.parse.urlsplit(link)
+    if parsed.hostname != "apply.lh.or.kr" or not parsed.path.endswith("/selectWrtancInfo.do"):
+        return None, ""
+    request = urllib.request.Request(link, headers={"User-Agent": "HousingCalendar/1.1"})
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(request, timeout=25) as response:
+                html = response.read().decode("utf-8")
+            break
+        except (OSError, UnicodeError):
+            if attempt == 2:
+                print("WARNING: LH detail dates unavailable:", parsed.query)
+                return None, ""
+            time.sleep(2)
+    start_match = re.search(r"var\s+sbscAcpStDt\s*=\s*['\"]([0-9.\-/]+)['\"]", html)
+    end_match = re.search(r"var\s+sbscAcpClsgDt\s*=\s*['\"]([0-9.\-/]+)['\"]", html)
+    start = normalize_date(start_match.group(1)) if start_match else ""
+    end = normalize_date(end_match.group(1)) if end_match else ""
+    if start and end and start <= end:
+        return (start, end), "LH official detail application period"
+    return None, ""
+
 def make_notice(row):
     title = str(row.get("PAN_NM") or "").strip()
     area = str(row.get("CNP_CD_NM") or "").strip()
@@ -175,6 +201,8 @@ def make_notice(row):
         application = VERIFIED_APPLICATION_DATES.get(str(row.get("PAN_ID") or ""))
         if application:
             date_source = "verified override"
+    if not application:
+        application, date_source = detail_application_period(link)
     return {
         "id": "LH-" + uid,
         "title": title,
