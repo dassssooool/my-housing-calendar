@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-11-25T01:49:17.278800+00:00",
+  "exportedAt": "2026-11-26T01:25:16.052465+00:00",
   "entries": [
     {
       "id": "SH-281608",
@@ -4486,7 +4486,7 @@
       "detailUrl": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=313227",
       "memo": "세부유형: 수요자맞춤형. 접수 일정과 대상은 SH 공식 공고문에서 확인하세요. 접수기간: 2026-11-24~2026-12-07.",
       "isSample": false,
-      "sourceUrl": "https://housing.seoul.go.kr/site/main/sh/publicLease/view?seq=2&cp=1&supplyType=publicLease"
+      "sourceUrl": "https://housing.seoul.go.kr/site/main/sh/publicLease/view?seq=3&cp=1&supplyType=publicLease"
     },
     {
       "id": "SH-313225",
@@ -4504,7 +4504,7 @@
       "detailUrl": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=313225",
       "memo": "세부유형: 수요자맞춤형. 접수 일정과 대상은 SH 공식 공고문에서 확인하세요. 접수기간: 2026-11-24~2026-12-07.",
       "isSample": false,
-      "sourceUrl": "https://housing.seoul.go.kr/site/main/sh/publicLease/view?seq=3&cp=1&supplyType=publicLease"
+      "sourceUrl": "https://housing.seoul.go.kr/site/main/sh/publicLease/view?seq=4&cp=1&supplyType=publicLease"
     },
     {
       "id": "APPLYHOME-APT-2026000505-2026000505",
@@ -4541,6 +4541,39 @@
       "isSample": false
     },
     {
+      "id": "LH-7294b04176fa9a4666",
+      "title": "의왕월암 A-1, A-3블록 신혼희망타운 행복주택 입주자 모집공고",
+      "agency": "LH",
+      "region": "경기",
+      "type": "공공임대",
+      "targets": [
+        "신혼부부",
+        "일반공급"
+      ],
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "eventKind": "publication",
+      "dateSource": "LH announcement date",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021137&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 행복주택(신혼희망)",
+      "isSample": false
+    },
+    {
+      "id": "SH-313843",
+      "title": "2026년 제2차 보증금지원형 장기안심주택 입주자 모집공고",
+      "agency": "SH",
+      "region": "서울",
+      "type": "공공임대",
+      "targets": [],
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "eventKind": "publication",
+      "dateSource": "서울주거포털 공고게시일",
+      "detailUrl": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=313843",
+      "memo": "세부유형: 장기안심주택. 접수 일정과 대상은 SH 공식 공고문에서 확인하세요.",
+      "isSample": false
+    },
+    {
       "id": "SH-313424",
       "title": "2026년 마포구 신혼부부,청년(수요자맞춤형)주택 잔여세대 입주자 모집 공고",
       "agency": "SH",
@@ -4557,7 +4590,7 @@
       "detailUrl": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=313424",
       "memo": "세부유형: 수요자맞춤형. 접수 일정과 대상은 SH 공식 공고문에서 확인하세요. 접수기간: 2026-11-25~2026-12-04.",
       "isSample": false,
-      "sourceUrl": "https://housing.seoul.go.kr/site/main/sh/publicLease/view?seq=4&cp=1&supplyType=publicLease"
+      "sourceUrl": "https://housing.seoul.go.kr/site/main/sh/publicLease/view?seq=5&cp=1&supplyType=publicLease"
     },
     {
       "id": "APPLYHOME-APT-2026000591-2026000591",
@@ -4730,23 +4763,6 @@
       "isSample": false
     },
     {
-      "id": "LH-2742df0bc29958dabd",
-      "title": "[경기북부] 2026년 3차 신혼·신생아 매입임대Ⅰ예비입주자 모집 공고",
-      "agency": "LH",
-      "region": "경기",
-      "type": "공공임대",
-      "targets": [
-        "신혼부부"
-      ],
-      "start": "2026-12-01",
-      "end": "2026-12-03",
-      "eventKind": "application",
-      "dateSource": "LH official detail application period",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021072&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "청약 접수기간 2026-12-01~2026-12-03 (LH official detail application period). 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
-      "isSample": false
-    },
-    {
       "id": "LH-1727f7cba61d3ec3ba",
       "title": "[경기북부] 2026년 3차 신혼·신생아 매입임대Ⅱ(전세형) 예비입주자 모집 공고",
       "agency": "LH",
@@ -4760,6 +4776,23 @@
       "eventKind": "application",
       "dateSource": "LH official detail application period",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021074&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "memo": "청약 접수기간 2026-12-01~2026-12-03 (LH official detail application period). 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
+      "isSample": false
+    },
+    {
+      "id": "LH-2742df0bc29958dabd",
+      "title": "[경기북부] 2026년 3차 신혼·신생아 매입임대Ⅰ예비입주자 모집 공고",
+      "agency": "LH",
+      "region": "경기",
+      "type": "공공임대",
+      "targets": [
+        "신혼부부"
+      ],
+      "start": "2026-12-01",
+      "end": "2026-12-03",
+      "eventKind": "application",
+      "dateSource": "LH official detail application period",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021072&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "memo": "청약 접수기간 2026-12-01~2026-12-03 (LH official detail application period). 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
       "isSample": false
     },
@@ -4781,6 +4814,21 @@
       "isSample": false
     },
     {
+      "id": "LH-0592dc79af26c256b7",
+      "title": "[서울지역본부] 고령자 매입임대주택 예비입주자 모집공고",
+      "agency": "LH",
+      "region": "서울",
+      "type": "공공임대",
+      "targets": [],
+      "start": "2026-12-21",
+      "end": "2026-12-23",
+      "eventKind": "application",
+      "dateSource": "LH official detail application period",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021105&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "memo": "청약 접수기간 2026-12-21~2026-12-23 (LH official detail application period). 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
+      "isSample": false
+    },
+    {
       "id": "LH-8caa1a6655decf8739",
       "title": "[서울지역본부] 일반 매입임대주택 예비입주자 모집공고",
       "agency": "LH",
@@ -4794,21 +4842,6 @@
       "eventKind": "application",
       "dateSource": "LH official detail application period",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021086&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-      "memo": "청약 접수기간 2026-12-21~2026-12-23 (LH official detail application period). 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
-      "isSample": false
-    },
-    {
-      "id": "LH-0592dc79af26c256b7",
-      "title": "[서울지역본부] 고령자 매입임대주택 예비입주자 모집공고",
-      "agency": "LH",
-      "region": "서울",
-      "type": "공공임대",
-      "targets": [],
-      "start": "2026-12-21",
-      "end": "2026-12-23",
-      "eventKind": "application",
-      "dateSource": "LH official detail application period",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021105&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "memo": "청약 접수기간 2026-12-21~2026-12-23 (LH official detail application period). 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
       "isSample": false
     }

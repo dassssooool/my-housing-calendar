@@ -1,6 +1,21 @@
 {
   "entries": [
     {
+      "id": "SH-313843",
+      "title": "2026년 제2차 보증금지원형 장기안심주택 입주자 모집공고",
+      "agency": "SH",
+      "region": "서울",
+      "type": "공공임대",
+      "targets": [],
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "eventKind": "publication",
+      "dateSource": "서울주거포털 공고게시일",
+      "detailUrl": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=313843",
+      "memo": "세부유형: 장기안심주택. 접수 일정과 대상은 SH 공식 공고문에서 확인하세요.",
+      "isSample": false
+    },
+    {
       "id": "SH-313610",
       "title": "2026년 영구임대주택 예비입주자모집 공고",
       "agency": "SH",
@@ -29,7 +44,7 @@
       "detailUrl": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=313227",
       "memo": "세부유형: 수요자맞춤형. 접수 일정과 대상은 SH 공식 공고문에서 확인하세요. 접수기간: 2026-11-24~2026-12-07.",
       "isSample": false,
-      "sourceUrl": "https://housing.seoul.go.kr/site/main/sh/publicLease/view?seq=2&cp=1&supplyType=publicLease"
+      "sourceUrl": "https://housing.seoul.go.kr/site/main/sh/publicLease/view?seq=3&cp=1&supplyType=publicLease"
     },
     {
       "id": "SH-313225",
@@ -47,7 +62,7 @@
       "detailUrl": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=313225",
       "memo": "세부유형: 수요자맞춤형. 접수 일정과 대상은 SH 공식 공고문에서 확인하세요. 접수기간: 2026-11-24~2026-12-07.",
       "isSample": false,
-      "sourceUrl": "https://housing.seoul.go.kr/site/main/sh/publicLease/view?seq=3&cp=1&supplyType=publicLease"
+      "sourceUrl": "https://housing.seoul.go.kr/site/main/sh/publicLease/view?seq=4&cp=1&supplyType=publicLease"
     },
     {
       "id": "SH-313424",
@@ -66,7 +81,7 @@
       "detailUrl": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=313424",
       "memo": "세부유형: 수요자맞춤형. 접수 일정과 대상은 SH 공식 공고문에서 확인하세요. 접수기간: 2026-11-25~2026-12-04.",
       "isSample": false,
-      "sourceUrl": "https://housing.seoul.go.kr/site/main/sh/publicLease/view?seq=4&cp=1&supplyType=publicLease"
+      "sourceUrl": "https://housing.seoul.go.kr/site/main/sh/publicLease/view?seq=5&cp=1&supplyType=publicLease"
     },
     {
       "id": "SH-313268",
