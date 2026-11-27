@@ -549,21 +549,6 @@
       "isSample": false
     },
     {
-      "id": "LH-aaeaa252d8fe479e04",
-      "title": "파주운정A4BL(별하람3) 10년 공공임대주택리츠 예비입주자 모집(무순위)",
-      "agency": "LH",
-      "region": "경기",
-      "type": "공공임대",
-      "targets": [],
-      "start": "2026-11-16",
-      "end": "2026-11-16",
-      "eventKind": "publication",
-      "dateSource": "LH announcement date",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061212&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
-      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 공공임대",
-      "isSample": false
-    },
-    {
       "id": "LH-bbfebea08d32aeab2f",
       "title": "파주운정A20BL(산내2) 10년 공공임대주택리츠 예비입주자모집(무순위)",
       "agency": "LH",
@@ -575,6 +560,21 @@
       "eventKind": "publication",
       "dateSource": "LH announcement date",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061210&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
+      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 공공임대",
+      "isSample": false
+    },
+    {
+      "id": "LH-aaeaa252d8fe479e04",
+      "title": "파주운정A4BL(별하람3) 10년 공공임대주택리츠 예비입주자 모집(무순위)",
+      "agency": "LH",
+      "region": "경기",
+      "type": "공공임대",
+      "targets": [],
+      "start": "2026-11-16",
+      "end": "2026-11-16",
+      "eventKind": "publication",
+      "dateSource": "LH announcement date",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061212&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
       "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 공공임대",
       "isSample": false
     },
@@ -786,6 +786,53 @@
       "dateSource": "LH announcement date",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021137&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
       "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 행복주택(신혼희망)",
+      "isSample": false
+    },
+    {
+      "id": "LH-2177844f2aa3892aa5",
+      "title": "[정정공고]수원당수 1, 2단지 행복주택 입주자격완화 동호지정 입주자 모집[선계약/후검증]('26.11.18.)",
+      "agency": "LH",
+      "region": "경기",
+      "type": "공공임대",
+      "targets": [],
+      "start": "2026-11-26",
+      "end": "2026-11-26",
+      "eventKind": "publication",
+      "dateSource": "LH announcement date",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021149&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 행복주택",
+      "isSample": false
+    },
+    {
+      "id": "LH-78f166fc4de90d177a",
+      "title": "[정정공고]수원시지역 호매실21단지, 고등2단지 행복주택 입주자격완화[선계약 후검증] 입주자 모집(2026.11.23)",
+      "agency": "LH",
+      "region": "경기",
+      "type": "공공임대",
+      "targets": [],
+      "start": "2026-11-26",
+      "end": "2026-11-26",
+      "eventKind": "publication",
+      "dateSource": "LH announcement date",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021146&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 행복주택",
+      "isSample": false
+    },
+    {
+      "id": "LH-1d80635642b5957b9d",
+      "title": "병점복합타운 주복1블록 공공분양주택 입주자모집공고",
+      "agency": "LH",
+      "region": "경기",
+      "type": "공공분양",
+      "targets": [
+        "일반공급"
+      ],
+      "start": "2026-11-26",
+      "end": "2026-11-26",
+      "eventKind": "publication",
+      "dateSource": "LH announcement date",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061217&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 분양주택",
       "isSample": false
     },
     {

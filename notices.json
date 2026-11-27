@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-11-26T01:25:16.052465+00:00",
+  "exportedAt": "2026-11-27T01:24:11.331879+00:00",
   "entries": [
     {
       "id": "SH-281608",
@@ -284,21 +284,6 @@
       "dateSource": "서울주거포털 공고게시일",
       "detailUrl": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=296645",
       "memo": "세부유형: 희망하우징. 접수 일정과 대상은 SH 공식 공고문에서 확인하세요.",
-      "isSample": false
-    },
-    {
-      "id": "SH-296634",
-      "title": "1~2인가구를 위한 도시형생활주택(건설형 원룸) 잔여세대 입주자모집공고(25.11.28.)",
-      "agency": "SH",
-      "region": "서울",
-      "type": "공공임대",
-      "targets": [],
-      "start": "2025-11-28",
-      "end": "2025-11-28",
-      "eventKind": "publication",
-      "dateSource": "서울주거포털 공고게시일",
-      "detailUrl": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=296634",
-      "memo": "세부유형: 도시형생활주택. 접수 일정과 대상은 SH 공식 공고문에서 확인하세요.",
       "isSample": false
     },
     {
@@ -1078,40 +1063,6 @@
       "dateSource": "청약홈 API 접수기간",
       "detailUrl": "",
       "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-08-19. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false
-    },
-    {
-      "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950074-2026950074",
-      "title": "둔촌 월드메르디앙 올림픽파크",
-      "agency": "청약홈",
-      "region": "서울",
-      "type": "민간임대",
-      "targets": [
-        "일반공급"
-      ],
-      "start": "2026-08-24",
-      "end": "2026-08-24",
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간",
-      "detailUrl": "http://www.월드메르디앙올림픽파크.com",
-      "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-08-18. 대상별 공급자격은 반드시 원문 확인.",
-      "isSample": false
-    },
-    {
-      "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950072-2026950072",
-      "title": "덕은 DMC에일린의뜰 센트럴 1차",
-      "agency": "청약홈",
-      "region": "경기",
-      "type": "민간임대",
-      "targets": [
-        "일반공급"
-      ],
-      "start": "2026-08-24",
-      "end": "2026-08-24",
-      "eventKind": "application",
-      "dateSource": "청약홈 API 접수기간",
-      "detailUrl": "https://www.isbiztower-dmc.co.kr/officetel",
-      "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-08-18. 대상별 공급자격은 반드시 원문 확인.",
       "isSample": false
     },
     {
@@ -4051,21 +4002,6 @@
       "isSample": false
     },
     {
-      "id": "LH-aaeaa252d8fe479e04",
-      "title": "파주운정A4BL(별하람3) 10년 공공임대주택리츠 예비입주자 모집(무순위)",
-      "agency": "LH",
-      "region": "경기",
-      "type": "공공임대",
-      "targets": [],
-      "start": "2026-11-16",
-      "end": "2026-11-16",
-      "eventKind": "publication",
-      "dateSource": "LH announcement date",
-      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061212&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
-      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 공공임대",
-      "isSample": false
-    },
-    {
       "id": "LH-bbfebea08d32aeab2f",
       "title": "파주운정A20BL(산내2) 10년 공공임대주택리츠 예비입주자모집(무순위)",
       "agency": "LH",
@@ -4077,6 +4013,21 @@
       "eventKind": "publication",
       "dateSource": "LH announcement date",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061210&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
+      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 공공임대",
+      "isSample": false
+    },
+    {
+      "id": "LH-aaeaa252d8fe479e04",
+      "title": "파주운정A4BL(별하람3) 10년 공공임대주택리츠 예비입주자 모집(무순위)",
+      "agency": "LH",
+      "region": "경기",
+      "type": "공공임대",
+      "targets": [],
+      "start": "2026-11-16",
+      "end": "2026-11-16",
+      "eventKind": "publication",
+      "dateSource": "LH announcement date",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061212&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
       "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 공공임대",
       "isSample": false
     },
@@ -4593,6 +4544,53 @@
       "sourceUrl": "https://housing.seoul.go.kr/site/main/sh/publicLease/view?seq=5&cp=1&supplyType=publicLease"
     },
     {
+      "id": "LH-2177844f2aa3892aa5",
+      "title": "[정정공고]수원당수 1, 2단지 행복주택 입주자격완화 동호지정 입주자 모집[선계약/후검증]('26.11.18.)",
+      "agency": "LH",
+      "region": "경기",
+      "type": "공공임대",
+      "targets": [],
+      "start": "2026-11-26",
+      "end": "2026-11-26",
+      "eventKind": "publication",
+      "dateSource": "LH announcement date",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021149&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 행복주택",
+      "isSample": false
+    },
+    {
+      "id": "LH-78f166fc4de90d177a",
+      "title": "[정정공고]수원시지역 호매실21단지, 고등2단지 행복주택 입주자격완화[선계약 후검증] 입주자 모집(2026.11.23)",
+      "agency": "LH",
+      "region": "경기",
+      "type": "공공임대",
+      "targets": [],
+      "start": "2026-11-26",
+      "end": "2026-11-26",
+      "eventKind": "publication",
+      "dateSource": "LH announcement date",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021146&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 행복주택",
+      "isSample": false
+    },
+    {
+      "id": "LH-1d80635642b5957b9d",
+      "title": "병점복합타운 주복1블록 공공분양주택 입주자모집공고",
+      "agency": "LH",
+      "region": "경기",
+      "type": "공공분양",
+      "targets": [
+        "일반공급"
+      ],
+      "start": "2026-11-26",
+      "end": "2026-11-26",
+      "eventKind": "publication",
+      "dateSource": "LH announcement date",
+      "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061217&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
+      "memo": "LH 공식 공고 게시일입니다. 청약 접수 시작·마감일이 아닙니다. 접수 일정과 신청자격은 반드시 공식 공고문에서 확인하세요. 세부유형: 분양주택",
+      "isSample": false
+    },
+    {
       "id": "APPLYHOME-APT-2026000591-2026000591",
       "title": "소사 휴먼빌",
       "agency": "청약홈",
@@ -4712,6 +4710,40 @@
       "isSample": false
     },
     {
+      "id": "APPLYHOME-오피스텔·도시형·민간임대-2026950099-2026950099",
+      "title": "더샵 퍼스트월드",
+      "agency": "청약홈",
+      "region": "서울",
+      "type": "민간임대",
+      "targets": [
+        "일반공급"
+      ],
+      "start": "2026-12-01",
+      "end": "2026-12-01",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
+      "detailUrl": "https://ot.더샵퍼스트월드.kr",
+      "memo": "청약홈 API · 오피스텔·도시형·민간임대 · 모집공고일 2026-11-26. 대상별 공급자격은 반드시 원문 확인.",
+      "isSample": false
+    },
+    {
+      "id": "APPLYHOME-잔여세대-2026910311-2026910311",
+      "title": "향남역 그로브 스위첸",
+      "agency": "청약홈",
+      "region": "경기",
+      "type": "민간분양",
+      "targets": [
+        "일반공급"
+      ],
+      "start": "2026-12-01",
+      "end": "2026-12-01",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
+      "detailUrl": "https://향남역스위첸.com",
+      "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-11-26. 대상별 공급자격은 반드시 원문 확인.",
+      "isSample": false
+    },
+    {
       "id": "APPLYHOME-잔여세대-2026910302-2026910302",
       "title": "한화포레나 영흥숲(4차)",
       "agency": "청약홈",
@@ -4794,6 +4826,40 @@
       "dateSource": "LH official detail application period",
       "detailUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021072&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
       "memo": "청약 접수기간 2026-12-01~2026-12-03 (LH official detail application period). 접수 시간과 신청 자격은 LH 공식 공고문에서 확인하세요.",
+      "isSample": false
+    },
+    {
+      "id": "APPLYHOME-잔여세대-2026930047-2026930047",
+      "title": "청량리 롯데캐슬 하이루체",
+      "agency": "청약홈",
+      "region": "서울",
+      "type": "민간분양",
+      "targets": [
+        "일반공급"
+      ],
+      "start": "2026-12-02",
+      "end": "2026-12-02",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
+      "detailUrl": "https://www.lottecastle.co.kr/APT/AT00395/main/index.do",
+      "memo": "청약홈 API · 잔여세대 · 모집공고일 2026-11-26. 대상별 공급자격은 반드시 원문 확인.",
+      "isSample": false
+    },
+    {
+      "id": "APPLYHOME-APT-2026000611-2026000611",
+      "title": "병점복합타운 주복1블록 공공분양",
+      "agency": "청약홈",
+      "region": "경기",
+      "type": "민간분양",
+      "targets": [
+        "일반공급"
+      ],
+      "start": "2026-12-07",
+      "end": "2026-12-10",
+      "eventKind": "application",
+      "dateSource": "청약홈 API 접수기간",
+      "detailUrl": "https://apply.lh.or.kr",
+      "memo": "청약홈 API · APT · 모집공고일 2026-11-26. 대상별 공급자격은 반드시 원문 확인.",
       "isSample": false
     },
     {
